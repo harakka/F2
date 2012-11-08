@@ -26,6 +26,13 @@ respawndelay = 3;
 #include "f\common\f_JIP_kitpicker.h"
 #include "f\common\f_JIP_grppicker.h"
 
+// ============================================================================================
+
+// F2 - Group join radio menu option
+// Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
+
+#include "f\common\f_grpJoinPicker.h"
+
 class Params
 {
 
