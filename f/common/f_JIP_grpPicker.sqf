@@ -9,7 +9,7 @@ GrpPickInit =
     uiNamespace setVariable ["GrpPick_UseBtn", (_this select 0) displayCtrl 3];
 
     USEBUTTON ctrlEnable false;
-    GrpList = [];
+    /*GrpList = [];
     GrpCount = 0;
     {
         private "_grp";
@@ -21,7 +21,22 @@ GrpPickInit =
             _idx = COMBO lbAdd str(_grp); COMBO lbSetValue [_idx, GrpCount + 1];
             GrpCount = GrpCount + 1;
         };
-    } forEach allGroups;
+    } forEach allGroups;*/
+
+	//private "_grp";
+	
+	//if (side(_grp) == side(player) && (faction (leader _grp) == faction player ) && (alive (leader _grp) ) && (_grp != group(player))) then
+	_groupCounter = 0;
+	{
+	//    GrpList set [GrpCount, _grp];
+		_grp = _x;
+		_groupCounter = _groupCounter + 1;
+		private "_idx";
+		_idx = COMBO lbAdd str(_grp); COMBO lbSetValue [_idx, _groupCounter];
+		//GrpCount = GrpCount + 1;
+	} forEach f_grpPicker_GrpList;
+
+
 
     _sel = player getVariable "GrpPicker_Selection";
     if (!isNil '_sel') then
