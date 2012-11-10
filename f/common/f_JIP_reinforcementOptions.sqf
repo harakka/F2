@@ -22,9 +22,22 @@ player removeAction F2_JIP_reinforcementOptionsAction;
 // Using a dialog we allow the player to select the group s/he is going to [re-]join.
 
 f_var_JIP_state = 0;
+
+// f_grpPicker_GrpList will contain the list of groups shown in the group picker dialog
+f_grpPicker_GrpList = [];
+{
+    private "_grp";
+    _grp = _x;
+    if (side(_grp) == side(player) && (faction (leader _grp) == faction player ) && (alive (leader _grp) ) && (_grp != group(player))) then
+    {
+    	f_grpPicker_GrpList = f_grpPicker_GrpList + [_grp];
+    };
+} forEach allGroups;
+
 x = createDialog "GrpPicker";
-waitUntil {f_var_JIP_state == 1};
-_grp = (player getVariable "f_var_JIP_grp");
+waitUntil {f_var_GrpPicker_state = 1}
+f_var_JIP_state = 1;
+_grp = (player getVariable "f_var_grpPicker_grp");
 
 // ====================================================================================
 

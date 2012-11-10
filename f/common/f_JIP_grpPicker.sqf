@@ -9,6 +9,9 @@ GrpPickInit =
     uiNamespace setVariable ["GrpPick_UseBtn", (_this select 0) displayCtrl 3];
 
     USEBUTTON ctrlEnable false;
+
+    // grpPicker state is always initialized to 0 when the dialog is loaded
+    f_var_grpPicker_state = 0;
     /*GrpList = [];
     GrpCount = 0;
     {
@@ -56,12 +59,12 @@ GrpPicker_Pick =
     if (_data == 0) exitWith {};
 
     private "_grp";
-    _grp = GrpList select (_data - 1);
+    _grp = f_grpPicker_GrpList select (_data - 1);
 
     closeDialog 0;
-    player setVariable ["f_var_JIP_grp", _grp];
+    player setVariable ["f_var_grpPicker_grp", _grp];
     player setVariable ["GrpPicker_Selection", _idx];
-    f_var_JIP_state = 1;
+    f_var_GrpPicker_state = 1;
 };
 
 GrpPicker_OnSelChanged =
