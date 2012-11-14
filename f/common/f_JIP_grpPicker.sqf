@@ -64,6 +64,7 @@ GrpPicker_Pick =
     closeDialog 0;
     player setVariable ["f_var_grpPicker_grp", _grp];
     player setVariable ["GrpPicker_Selection", _idx];
+	// Set f_var_GrpPicker_state to 1 to indicate group has been selected
     f_var_GrpPicker_state = 1;
 };
 

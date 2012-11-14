@@ -35,7 +35,7 @@ f_grpPicker_GrpList = [];
 } forEach allGroups;
 
 x = createDialog "GrpPicker";
-waitUntil {f_var_GrpPicker_state = 1}
+waitUntil {f_var_GrpPicker_state == 1}
 f_var_JIP_state = 1;
 _grp = (player getVariable "f_var_grpPicker_grp");
 
