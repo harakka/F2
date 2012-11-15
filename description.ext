@@ -24,7 +24,13 @@ respawndelay = 3;
 // Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
 
 #include "f\common\f_JIP_kitpicker.h"
-#include "f\common\f_JIP_grppicker.h"
+
+// ============================================================================================
+
+// F2 - Group picker dialog
+// Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
+
+#include "f\common\f_groupPicker.h"
 
 class Params
 {

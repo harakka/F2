@@ -1,4 +1,4 @@
-#include "f_JIP_common.h"
+#include "f_dialogs_common.h"
 
 class GrpPicker
 {
@@ -7,7 +7,8 @@ class GrpPicker
     enableSimulation = 1;
     enableDisplay = 1;
 
-    onLoad = "if (isNil 'GrpPickInit') then {call compile preprocessFileLineNumbers 'f\common\f_JIP_grpPicker.sqf'}; _this call GrpPickInit;";
+    onLoad = "if (isNil 'GrpPickInit') then {call compile preprocessFileLineNumbers 'f\common\f_groupPicker.sqf'}; _this call GrpPickInit;";
+	onUnload = "if (f_var_grpPicker_state == 0) then {f_var_grpPicker_state = 2};"
 
     class controlsBackground
     {
