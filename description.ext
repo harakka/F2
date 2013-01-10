@@ -5,9 +5,9 @@
 
 class Header
 {
-	gameType = Coop;
+	gameType = Team;
 	minPlayers = 1;
-	maxPlayers = 970;
+	maxPlayers = 94;
 };
 
 // ============================================================================================
@@ -58,6 +58,44 @@ class Params
                 default = 0;
                 code = "f_var_acre = %1";
         }; 
+// ============================================================================================
+// Custom options for Cratesistance
+
+		class ha_param_checkpointNum
+		{
+				title = "Number of caches";
+				values[] = {0,1,2,3,4,5};
+				texts[] = {"5","6","7","8","9","10"};
+				default = 0;
+				code = "ha_param_checkpointNum = %1";
+		};
+		
+		class ha_param_checkpointVictoryNum
+		{
+				title = "Caches destroyed for BLUFOR win";
+				values[] = {2,3,4,5,6,7,8,9};
+				texts[] = {"2","3","4","5","6","7","8","9"};
+				default = 3;
+				code = "ha_param_checkpointVictoryNum = %1";
+		};
+		
+		class ha_param_coop
+		{
+				title = "Coop mode";
+				values[] = {0,1};
+				texts[] = {"No","Yes"};
+				default = 0;
+				code = "ha_param_coop = %1";
+		};	
+			
+		class ha_param_moreEnemies
+		{
+				title = "More enemies";
+				values[] = {0,1};
+				texts[] = {"No","Yes"};
+				default = 0;
+				code = "ha_param_moreEnemies = %1";
+		};
 
 // ============================================================================================
 
@@ -170,7 +208,25 @@ class RscTitles {
 // #include "f\common\f_recog\recogOverlay.hpp"
 
 // ============================================================================================
+class introImage
+  {   
+    idd = -1;   
+    movingEnable = false;
+    duration = 7;
+    fadein = 0;
+    name = "introImage"; 
+    controls[] = {"image1"};
 
+    class image1: RscPicture
+    {   
+   style = 48 + 0x800;
+   x = -0.15;
+   y = -0.15;
+   w = 0.5;
+   h = 0.4;
+   text = "fa.paa";
+    };
+  };
 };
 
 // ============================================================================================

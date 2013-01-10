@@ -131,8 +131,8 @@ switch (_typeofUnit) do
 	case "co":
 	{
 		{_unit addmagazine _glriflemag} foreach [1,2,3,4,5,6,7];	//_COriflemag
-		{_unit addmagazine _glmag} foreach [1,2,3];
-		{_unit addmagazine _glsmokewhite} foreach [1,2,3];
+		{_unit addmagazine _glmag} foreach [1,2];
+		{_unit addmagazine _glsmokewhite} foreach [1,2];
 		_unit addweapon _glrifle;									//_COrifle
 		{_unit addmagazine _pistolmag} foreach [1,2];
 		_unit addweapon _pistol;		
@@ -147,7 +147,6 @@ switch (_typeofUnit) do
 			(unitBackpack _unit) addMagazineCargoGlobal [_glriflemag, 4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenadegreen, 1];			
-			(unitBackpack _unit) addMagazineCargoGlobal [_glmag, 2];
 		};
 	};
   
@@ -155,8 +154,8 @@ switch (_typeofUnit) do
 	case "dc":
 	{
 		{_unit addmagazine _glriflemag} foreach [1,2,3,4,5,6,7];	//_DCriflemag
-		{_unit addmagazine _glmag} foreach [1,2,3];
-		{_unit addmagazine _glsmokewhite} foreach [1,2,3];
+		{_unit addmagazine _glmag} foreach [1,2];
+		{_unit addmagazine _glsmokewhite} foreach [1,2,3,4];
 		_unit addweapon _glrifle;									//_DCrifle
 		{_unit addmagazine _pistolmag} foreach [1,2];
 		_unit addweapon _pistol;		
@@ -171,7 +170,6 @@ switch (_typeofUnit) do
 			(unitBackpack _unit) addMagazineCargoGlobal [_glriflemag, 4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenadegreen, 1];			
-			(unitBackpack _unit) addMagazineCargoGlobal [_glmag, 2];
 		};
 	};  
 
@@ -187,8 +185,8 @@ switch (_typeofUnit) do
 	case "ftl":
 	{
 		{_unit addmagazine _glriflemag} foreach [1,2,3,4,5,6,7];	//_FTLriflemag
-		{_unit addmagazine _glmag} foreach [1,2,3,4];
-		{_unit addmagazine _glsmokewhite} foreach [1,2,3,4];
+		{_unit addmagazine _glmag} foreach [1,2];
+		{_unit addmagazine _glsmokewhite} foreach [1,2,3,4,5,6];
 		_unit addweapon _glrifle;									//_FTLrifle		
 		{_unit addmagazine _grenade} foreach [1,2];
 		{_unit addmagazine _smokegrenade;} foreach [1,2];
@@ -200,7 +198,6 @@ switch (_typeofUnit) do
 			clearMagazineCargoGlobal (unitBackpack _unit);
 			(unitBackpack _unit) addMagazineCargoGlobal [_glriflemag, 4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_glsmokewhite, 1];			
-			(unitBackpack _unit) addMagazineCargoGlobal [_glmag, 3];
 		};
 	};		
 

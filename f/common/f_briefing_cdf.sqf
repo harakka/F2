@@ -2,6 +2,8 @@
 // Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
 // ====================================================================================
 
+waitUntil {scriptDone f_processParamsArray};
+
 // FACTION: CDF
 
 // ====================================================================================
@@ -21,7 +23,7 @@
 
 _cre = player createDiaryRecord ["diary", ["Credits","
 <br/>
-*** Insert mission credits here. ***
+Made by harakka with love for Folk ARPS. Thanks to all FA session players for suggestions and bugreports.
 <br/><br/>
 Made with F2 (http://www.ferstaberinde.com/f2/en/)
 "]];
@@ -33,7 +35,13 @@ Made with F2 (http://www.ferstaberinde.com/f2/en/)
 
 _adm = player createDiaryRecord ["diary", ["Administration","
 <br/>
-*** Insert information on administration and logistics here. ***
+DESTROYING CACHES
+<br/>
+Satchel charges must be used to destroy caches. All fireteam members are equipped with satchel charges.
+<br/><br/>
+TRANSPORT
+<br/>
+3x Transport truck, indicated by a map marker.
 "]];
 
 // ====================================================================================
@@ -45,19 +53,7 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 <br/>
 COMMANDER'S INTENT
 <br/>
-*** Insert very short summary of plan here. ***
-<br/><br/>
-MOVEMENT PLAN
-<br/>
-*** Insert movement instructions here. ***
-<br/><br/>
-FIRE SUPPORT PLAN
-<br/>
-*** Insert fire support instructions here. ***
-<br/><br/>
-SPECIAL TASKS
-<br/>
-*** Insert instructions for specific units here. ***
+Destroy the marked NAPA equipment caches by using satchels, with minimum casualties to your squad.
 "]];
 
 // ====================================================================================
@@ -65,10 +61,14 @@ SPECIAL TASKS
 // NOTES: MISSION
 // The code below creates the mission sub-section of notes.
 
-_mis = player createDiaryRecord ["diary", ["Mission","
-<br/>
-*** Insert the mission here. ***
-"]];
+_mis = player createDiaryRecord ["diary", ["Mission", format["
+OBJECTIVES<br/>
+Destroy NAPA weapon caches. Mission is successful once either %1 out of %2 caches are destroyed, or all NAPA units have been eliminated.
+<br/><br/>
+White circles indicate cache locations. Red circles indicate destroyed caches. Your mission is successful once the set number of caches have been destroyed, or NAPA units have been eliminated.
+<br/><br/>
+NOTE: Cache markers will only be visible AFTER briefing phase ends, and your starting positions will also change (via automatic teleport).
+", ha_param_checkpointVictoryNum, ha_param_checkpointNum]]];
 
 // ====================================================================================
 
@@ -77,15 +77,16 @@ _mis = player createDiaryRecord ["diary", ["Mission","
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-*** Insert general information about the situation here.***
+The Chernarussian Defence Forces (CDF) intel has indicated locations of several National Party (NAPA) guerrilla equipment caches.
+However NAPA is about to relocate the caches, and we must move in swiftly to intercept them and destroy the caches.
 <br/><br/>
 ENEMY FORCES
 <br/>
-*** Insert information about enemy forces here.***
+NAPA guerrillas, number unknown. No armed vehicles or armor. The caches are very likely to be guarded. The enemy can communicate your location amongst themselves if you are spotted, and may send patrols to hunt you down.
 <br/><br/>
 FRIENDLY FORCES
 <br/>
-*** Insert information about friendly forces here.***
+None.
 "]];
 
 // ====================================================================================

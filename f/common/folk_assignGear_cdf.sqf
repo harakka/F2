@@ -44,7 +44,7 @@
 
 // GENERAL EQUIPMENT USED BY MULTIPLE CLASSES
 
-_rifle = "M16A2"; _riflemag = "30Rnd_556x45_Stanag";																						// Standard Riflemen (Spotter, HMG Assistant Gunner, MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, HAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
+_rifle = "AK_74"; _riflemag = "30Rnd_545x39_AK";																						// Standard Riflemen (Spotter, HMG Assistant Gunner, MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, HAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
 
 _carbine = "AKS_74"; _carbinemag = "30Rnd_545x39_AK"; 																						// Standard Carabineer (Medic, HMG Gunner, Rifleman (AT), Rifleman (AA), MAT Gunner, HAT Gunner, MTR Gunner, Carabineer)
 
@@ -131,8 +131,8 @@ switch (_typeofUnit) do
 	case "co":
 	{
 		{_unit addmagazine _glriflemag} foreach [1,2,3,4,5,6,7];	//_COriflemag
-		{_unit addmagazine _glmag} foreach [1,2,3];
-		{_unit addmagazine _glsmokewhite} foreach [1,2,3];
+		{_unit addmagazine _glmag} foreach [1,2];
+		{_unit addmagazine _glsmokewhite} foreach [1,2,3,4];
 		_unit addweapon _glrifle;									//_COrifle
 		{_unit addmagazine _pistolmag} foreach [1,2];
 		_unit addweapon _pistol;		
@@ -147,7 +147,6 @@ switch (_typeofUnit) do
 			(unitBackpack _unit) addMagazineCargoGlobal [_glriflemag, 4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenadegreen, 1];			
-			(unitBackpack _unit) addMagazineCargoGlobal [_glmag, 2];
 		};
 	};
   
@@ -155,8 +154,8 @@ switch (_typeofUnit) do
 	case "dc":
 	{
 		{_unit addmagazine _glriflemag} foreach [1,2,3,4,5,6,7];	//_DCriflemag
-		{_unit addmagazine _glmag} foreach [1,2,3];
-		{_unit addmagazine _glsmokewhite} foreach [1,2,3];
+		{_unit addmagazine _glmag} foreach [1,2];
+		{_unit addmagazine _glsmokewhite} foreach [1,2,3,4];
 		_unit addweapon _glrifle;									//_DCrifle
 		{_unit addmagazine _pistolmag} foreach [1,2];
 		_unit addweapon _pistol;		
@@ -171,7 +170,6 @@ switch (_typeofUnit) do
 			(unitBackpack _unit) addMagazineCargoGlobal [_glriflemag, 4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenade, 1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokegrenadegreen, 1];			
-			(unitBackpack _unit) addMagazineCargoGlobal [_glmag, 2];
 		};
 	};  
 
@@ -187,12 +185,12 @@ switch (_typeofUnit) do
 	case "ftl":
 	{
 		{_unit addmagazine _glriflemag} foreach [1,2,3,4,5,6,7];	//_FTLriflemag
-		{_unit addmagazine _glmag} foreach [1,2,3,4];
+		{_unit addmagazine _glmag} foreach [1,2];
 		{_unit addmagazine _glsmokewhite} foreach [1,2,3,4];
 		_unit addweapon _glrifle;									//_FTLrifle		
-		{_unit addmagazine _grenade} foreach [1,2];
+		{_unit addmagazine _grenade} foreach [1];
 		{_unit addmagazine _smokegrenade;} foreach [1,2];
-		{_unit addmagazine _smokegrenadegreen;} foreach [1];
+		{_unit addmagazine _satchel} foreach [1];
 		_unit addweapon "Binocular";
 		_unit addweapon "ItemGPS";
 		if (_useBackpacks==1) then {
@@ -200,7 +198,6 @@ switch (_typeofUnit) do
 			clearMagazineCargoGlobal (unitBackpack _unit);
 			(unitBackpack _unit) addMagazineCargoGlobal [_glriflemag, 4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_glsmokewhite, 1];			
-			(unitBackpack _unit) addMagazineCargoGlobal [_glmag, 3];
 		};
 	};		
 
@@ -210,19 +207,19 @@ switch (_typeofUnit) do
 	{
 		{_unit addmagazine _ARmag} foreach [1,2,3,4,5];
 		_unit addweapon _AR;
-		{_unit addmagazine _grenade} foreach [1];
-		{_unit addmagazine _smokegrenade;} foreach [1];
 		{_unit addmagazine _pistolmag} foreach [1,2,3,4];
 		_unit addweapon _pistol;
+		{_unit addmagazine _satchel} foreach [1];
 	};	
 	
 // LOADOUT: ASSISTANT AUTOMATIC RIFLEMAN
 	case "aar":
 	{
-		{_unit addmagazine _riflemag} foreach [1,2,3,4,5,6];
+		{_unit addmagazine _riflemag} foreach [1,2,3,4];
 		_unit addweapon _rifle;		
 		{_unit addmagazine _grenade} foreach [1];
 		{_unit addmagazine _smokegrenade;} foreach [1];
+		{_unit addmagazine _satchel} foreach [1];
 			// Put ammo in backpack. If not OA unit, then should add directly to inv of unit instead.
 		if (_useBackpacks==1) then {
 			{_unit addmagazine _riflemag} foreach [1,2];
@@ -470,10 +467,12 @@ switch (_typeofUnit) do
 // LOADOUT: RIFLEMAN
 	case "r":
 	{
-		{_unit addmagazine _riflemag} foreach [1,2,3,4,5,6,7,8];
+		{_unit addmagazine _riflemag} foreach [1,2,3,4,5,6];
 		_unit addweapon _rifle;
 		{_unit addmagazine _grenade} foreach [1,2];
 		{_unit addmagazine _smokegrenade;} foreach [1,2];
+		{_unit addmagazine _satchel} foreach [1];
+		
 		if (_useBackpacks==1) then {
 			_unit addBackpack _bagmedium;
 			clearMagazineCargoGlobal (unitBackpack _unit);

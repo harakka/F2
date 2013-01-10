@@ -21,7 +21,7 @@
 
 _cre = player createDiaryRecord ["diary", ["Credits","
 <br/>
-*** Insert mission credits here. ***
+Made by harakka with love for Folk ARPS. Thanks to all FA session players for suggestions and bugreports.
 <br/><br/>
 Made with F2 (http://www.ferstaberinde.com/f2/en/)
 "]];
@@ -33,7 +33,13 @@ Made with F2 (http://www.ferstaberinde.com/f2/en/)
 
 _adm = player createDiaryRecord ["diary", ["Administration","
 <br/>
-*** Insert information on administration and logistics here. ***
+CACHES
+<br/>
+Each cache is guarded by 2-5 friendly AI units. CDF must use satchel charges to destroy caches. The friendly AI will report enemy sightings to you via map markers, unless they are wiped out very quickly. These markers are accurate to about 30 meters and include a timestamp.
+<br/><br/>
+TRANSPORT
+<br/>
+3x Transport truck, indicated by a map marker.
 "]];
 
 // ====================================================================================
@@ -45,19 +51,7 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 <br/>
 COMMANDER'S INTENT
 <br/>
-*** Insert very short summary of plan here. ***
-<br/><br/>
-MOVEMENT PLAN
-<br/>
-*** Insert movement instructions here. ***
-<br/><br/>
-FIRE SUPPORT PLAN
-<br/>
-*** Insert fire support instructions here. ***
-<br/><br/>
-SPECIAL TASKS
-<br/>
-*** Insert instructions for specific units here. ***
+Assist our comrades in protecting the equipment caches, and eliminate any CDF soldiers sent to destroy them.
 "]];
 
 // ====================================================================================
@@ -65,10 +59,14 @@ SPECIAL TASKS
 // NOTES: MISSION
 // The code below creates the mission sub-section of notes.
 
-_mis = player createDiaryRecord ["diary", ["Mission","
-<br/>
-*** Insert the mission here. ***
-"]];
+_mis = player createDiaryRecord ["diary", ["Mission", format["
+OBJECTIVES<br/>
+Protect the weapon caches and eliminate CDF troops. The enemy is victorious if they destroy %1 out of %2 caches, or all of our soldiers are dead.
+<br/><br/>
+White circles indicate cache locations. Red circles indicate destroyed caches.
+<br/><br/>
+NOTE: Cache markers will only be visible AFTER briefing phase ends, and your starting positions will also change (via automatic teleport).
+", ha_param_checkpointVictoryNum, ha_param_checkpointNum]]];
 
 // ====================================================================================
 
@@ -77,15 +75,15 @@ _mis = player createDiaryRecord ["diary", ["Mission","
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-*** Insert general information about the situation here.***
+An ex-comrade has leaked information to CDF about the location of our equipment caches, and CDF is on their way to destroy them. This equipment is vital in our strife to keep our country free and has been acquired at great expense. The caches must be protected at any means until we can relocate them. Our boys are already standing guard at each cache. Your job is to help safeguard the caches, and hunt down the CDF soldiers sent to destroy them.
 <br/><br/>
 ENEMY FORCES
 <br/>
-*** Insert information about enemy forces here.***
+CDF force of unknown size, no armed vehicles or armor.
 <br/><br/>
 FRIENDLY FORCES
 <br/>
-*** Insert information about friendly forces here.***
+Every cache is manned by 2-5 comrades. Jaroslav is ill and couldn't come today, so Vasil is filling out for him. If you see him, don't joke about the ill-fitting ski mask, he tries really hard.
 "]];
 
 // ====================================================================================

@@ -248,3 +248,20 @@ player setVariable ["BIS_noCoreConversations", true];
 // Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
 
 [false] execVM "f\common\f_groupJoinAddOption.sqf";
+
+// Cratesistance custom scripts
+// ====================================================================================
+
+ha_missionInitHandle = [] execVM "ha_serverCreateMission.sqf";
+
+[] execVM "ha_serverAwarenessMarkers.sqf";
+
+"ha_bluMarkers" addPublicVariableEventhandler {execVM "ha_clientAwarenessMarkers.sqf";};
+
+// [] execVM "ha_teleportToMarkerAction.sqf";
+
+[] execVM "ha_clientIntro.sqf";
+
+[] execVM "ha_clientVehicleMarker.sqf";
+
+cutRsc ["introImage", "PLAIN", 1];
