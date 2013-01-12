@@ -2005,7 +2005,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=439;
+		items=441;
 		class Item0
 		{
 			position[]={5316.7109,0.23615721,115.87286};
@@ -4638,6 +4638,18 @@ class Mission
 		{
 			position[]={8229.4258,466.08737,8973.0107};
 			name="ha_cp_438";
+			type="Empty";
+		};
+		class Item439
+		{
+			position[]={-722.4212,280.13831,9305.7373};
+			name="ha_blu_start";
+			type="Empty";
+		};
+		class Item440
+		{
+			position[]={-748.59961,103.63511,4282.3818};
+			name="ha_res_start";
 			type="Empty";
 		};
 	};

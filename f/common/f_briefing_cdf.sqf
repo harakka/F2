@@ -24,6 +24,9 @@ waitUntil {scriptDone f_processParamsArray};
 _cre = player createDiaryRecord ["diary", ["Credits","
 <br/>
 Made by harakka with love for Folk ARPS. Thanks to all FA session players for suggestions and bugreports.
+<br/>
+<br/>
+Uses SHK_moveobjects.sqf by Shuko: http://forums.bistudio.com/showthread.php?92018-SHK_moveobjects
 <br/><br/>
 Made with F2 (http://www.ferstaberinde.com/f2/en/)
 "]];
