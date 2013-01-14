@@ -30,42 +30,42 @@ switch (_timeOfDay) do
 // Dawn
 	case 0:
 	{
-		setDate [2007, 5, 11, 4, 50];
+		setDate [2008, 6, 5, 4, 50];
 	};
 // Early Morning
 	case 1:
 	{
-		setDate [2007, 5, 11, 5, 50];
+		setDate [2008, 6, 5, 5, 50];
 	};
 // Morning
 	case 2:
 	{
-		setDate [2007, 5, 11, 9, 00];
+		setDate [2008, 6, 5, 9, 00];
 	};
 // Noon
 	case 3:
 	{
-		setDate [2007, 5, 11, 12, 0];
+		setDate [2008, 6, 5, 12, 0];
 	};
 // Afternoon
 	case 4:
 	{
-		setDate [2007, 5, 11, 15, 00];
+		setDate [2008, 6, 5, 15, 00];
 	};
 // Evening
 	case 5:
 	{
-		setDate [2007, 5, 11, 17, 50];
+		setDate [2008, 6, 5, 17, 50];
 	};
 // Dusk
 	case 6:
 	{
-		setDate [2007, 5, 11, 18, 50];
+		setDate [2008, 6, 5, 18, 50];
 	};
 // Night
 	case 7:
 	{
-		setDate [2007, 5, 11, 0, 0];
+		setDate[2008, 6, 5, 0, 0];
 	};
 };
 
@@ -94,7 +94,7 @@ switch (_weather) do
 	case 2:
 	{
 		_MissionOvercast = 00.60;
-		_MissionFog = 00.8125;
+		_MissionFog = 00.6125;
 		_MissionRain = 00.00;
 	};
 // Heavy Fog

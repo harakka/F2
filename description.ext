@@ -39,7 +39,7 @@ class Params
                 title = "OA Backpacks";
                 values[] = {0,1};
                 texts[] = {"Off","On"};
-                default = 1;
+                default = 0;
                 code = "f_param_useBackpacks = %1";
         }; 
 		
@@ -79,23 +79,6 @@ class Params
 				code = "ha_param_checkpointVictoryNum = %1";
 		};
 		
-		class ha_param_coop
-		{
-				title = "Coop mode";
-				values[] = {0,1};
-				texts[] = {"No","Yes"};
-				default = 0;
-				code = "ha_param_coop = %1";
-		};	
-			
-		class ha_param_moreEnemies
-		{
-				title = "More enemies";
-				values[] = {0,1};
-				texts[] = {"No","Yes"};
-				default = 0;
-				code = "ha_param_moreEnemies = %1";
-		};
 
 // ============================================================================================
 
@@ -130,7 +113,7 @@ class Params
 		title = "$STR_f_param_weather";
 		values[] = {0,1,2,3,4};
 		texts[] = {$STR_f_param_weather_Option0,$STR_f_param_weather_Option1,$STR_f_param_weather_Option2,$STR_f_param_weather_Option3,$STR_f_param_weather_Option4};
-		default = 0;
+		default = 2;
 		code = "f_param_weather = %1";
         };
 

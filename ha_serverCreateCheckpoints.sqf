@@ -32,18 +32,7 @@ if (!isServer) exitWith {};
 
 	_cpCamo = "Land_CamoNetVar_EAST" createVehicle _pos;
     
-    // Coop
-    if (ha_param_coop == 1) then {
-		if (ha_param_moreEnemies == 1) then {
-            _grp = [_pos, resistance, 8, [], [], [0.1,0.1,0.1], [], [3, 0.7]] call BIS_fnc_spawnGroup;
-        	
-    	} else {
-        	_grp = [_pos, resistance, 5, [], [], [0.1,0.1,0.1], [], [3, 0.5]] call BIS_fnc_spawnGroup;
-        };
-    // Adversarial
-    } else {
-        _grp = [_pos, resistance, 4, [], [], [0.1,0.1,0.1], [], [2, 0.4]] call BIS_fnc_spawnGroup;
-    };
+	_grp = [_pos, resistance, 4, [], [], [0.1,0.1,0.1], [], [2, 0.4]] call BIS_fnc_spawnGroup;
     
     // Doesn't really work, I think only commander's facing matters and rest will act per formation
     {_x setDir random 360} forEach units _grp;
@@ -51,7 +40,6 @@ if (!isServer) exitWith {};
     // Random behavior: casual patrolling and chilling etc.
     [_grp, _pos] call bis_fnc_taskDefend;
 
-    
     _grp setCombatMode "RED";
     _grp setBehaviour "COMBAT";
 	
