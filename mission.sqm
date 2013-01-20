@@ -2005,7 +2005,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=441;
+		items=475;
 		class Item0
 		{
 			position[]={5316.7109,0.23615721,115.87286};
@@ -2440,13 +2440,13 @@ class Mission
 		};
 		class Item72
 		{
-			position[]={556.5351,48.40538,4046.2043};
+			position[]={877.98761,115.78407,4422.0771};
 			name="ha_cp_72";
 			type="Empty";
 		};
 		class Item73
 		{
-			position[]={374.36441,49.008274,4310.1401};
+			position[]={1694.6906,309.67786,7390.959};
 			name="ha_cp_73";
 			type="Empty";
 		};
@@ -2512,13 +2512,13 @@ class Mission
 		};
 		class Item84
 		{
-			position[]={1138.3754,4.6909461,2259.8594};
+			position[]={659.07507,86.863022,2834.8418};
 			name="ha_cp_84";
 			type="Empty";
 		};
 		class Item85
 		{
-			position[]={1108.8491,5.9269443,2162.8474};
+			position[]={1463.3588,12.586226,2525.6772};
 			name="ha_cp_85";
 			type="Empty";
 		};
@@ -3118,19 +3118,19 @@ class Mission
 		};
 		class Item185
 		{
-			position[]={1854.9904,5.7837243,2125.7363};
+			position[]={1842.257,6,2158.9551};
 			name="ha_cp_185";
 			type="Empty";
 		};
 		class Item186
 		{
-			position[]={1463.5547,4.6498408,2097.2515};
+			position[]={1745.5016,10.718084,2264.3628};
 			name="ha_cp_186";
 			type="Empty";
 		};
 		class Item187
 		{
-			position[]={427.16846,3.4814284,1511.749};
+			position[]={961.89587,121.5211,4781.7603};
 			name="ha_cp_187";
 			type="Empty";
 		};
@@ -3142,19 +3142,19 @@ class Mission
 		};
 		class Item189
 		{
-			position[]={472.15674,86.288849,2158.873};
+			position[]={1429.7186,162.66565,6550.7866};
 			name="ha_cp_189";
 			type="Empty";
 		};
 		class Item190
 		{
-			position[]={459.15826,140.92097,2373.3445};
+			position[]={670.8891,43.405037,3233.9319};
 			name="ha_cp_190";
 			type="Empty";
 		};
 		class Item191
 		{
-			position[]={479.37805,28.416056,1894.575};
+			position[]={1410.3734,171.61031,5997.0107};
 			name="ha_cp_191";
 			type="Empty";
 		};
@@ -3166,13 +3166,13 @@ class Mission
 		};
 		class Item193
 		{
-			position[]={324.84067,22.194101,1687.3252};
+			position[]={827.41498,203.14497,8289.623};
 			name="ha_cp_193";
 			type="Empty";
 		};
 		class Item194
 		{
-			position[]={490.21017,12.625772,1715.4877};
+			position[]={1096.4696,134.17545,5240.9844};
 			name="ha_cp_194";
 			type="Empty";
 		};
@@ -3190,7 +3190,7 @@ class Mission
 		};
 		class Item197
 		{
-			position[]={2248.8811,5.3006787,2068.1313};
+			position[]={2251.9766,5.3262167,2220.9888};
 			name="ha_cp_197";
 			type="Empty";
 		};
@@ -4650,6 +4650,210 @@ class Mission
 		{
 			position[]={-748.59961,103.63511,4282.3818};
 			name="ha_res_start";
+			type="Empty";
+		};
+		class Item441
+		{
+			position[]={4950.6812,347.32346,8901.6934};
+			name="ha_cp_439";
+			type="Empty";
+		};
+		class Item442
+		{
+			position[]={5157.5503,348.8212,9093.0928};
+			name="ha_cp_440";
+			type="Empty";
+		};
+		class Item443
+		{
+			position[]={5317.9688,328.71091,9736.2266};
+			name="ha_cp_441";
+			type="Empty";
+		};
+		class Item444
+		{
+			position[]={5549.3975,319.74442,9598.624};
+			name="ha_cp_442";
+			type="Empty";
+		};
+		class Item445
+		{
+			position[]={5615.5674,317.87015,9311.8467};
+			name="ha_cp_443";
+			type="Empty";
+		};
+		class Item446
+		{
+			position[]={4511.0615,323.28113,8876.3965};
+			name="ha_cp_444";
+			type="Empty";
+		};
+		class Item447
+		{
+			position[]={3606.9219,299.29605,8744.4639};
+			name="ha_cp_445";
+			type="Empty";
+		};
+		class Item448
+		{
+			position[]={3907.7104,312.91663,8961.2588};
+			name="ha_cp_446";
+			type="Empty";
+		};
+		class Item449
+		{
+			position[]={2956.3335,306.84055,7976.5366};
+			name="ha_cp_447";
+			type="Empty";
+		};
+		class Item450
+		{
+			position[]={2576.1895,331.31494,8075.5396};
+			name="ha_cp_448";
+			type="Empty";
+		};
+		class Item451
+		{
+			position[]={2492.6292,343.12787,8021.8545};
+			name="ha_cp_449";
+			type="Empty";
+		};
+		class Item452
+		{
+			position[]={2860.166,275.54407,8632.6064};
+			name="ha_cp_450";
+			type="Empty";
+		};
+		class Item453
+		{
+			position[]={4724.228,278.40497,6422.3784};
+			name="ha_cp_451";
+			type="Empty";
+		};
+		class Item454
+		{
+			position[]={5067.7368,287.32001,6345.1968};
+			name="ha_cp_452";
+			type="Empty";
+		};
+		class Item455
+		{
+			position[]={4953.8364,281.38071,6142.062};
+			name="ha_cp_453";
+			type="Empty";
+		};
+		class Item456
+		{
+			position[]={5288.3706,245.11412,5938.1226};
+			name="ha_cp_454";
+			type="Empty";
+		};
+		class Item457
+		{
+			position[]={5491.3105,250.44119,5905.5884};
+			name="ha_cp_455";
+			type="Empty";
+		};
+		class Item458
+		{
+			position[]={2909.4246,354.03766,6393.5645};
+			name="ha_cp_456";
+			type="Empty";
+		};
+		class Item459
+		{
+			position[]={3436.5676,342.00787,6541.1826};
+			name="ha_cp_457";
+			type="Empty";
+		};
+		class Item460
+		{
+			position[]={3242.5144,303.85513,6172.3892};
+			name="ha_cp_458";
+			type="Empty";
+		};
+		class Item461
+		{
+			position[]={3190.1921,283.41785,9738.3994};
+			name="ha_cp_459";
+			type="Empty";
+		};
+		class Item462
+		{
+			position[]={2080.2739,253.12643,10415.914};
+			name="ha_cp_460";
+			type="Empty";
+		};
+		class Item463
+		{
+			position[]={1774.087,242.20576,10408.219};
+			name="ha_cp_461";
+			type="Empty";
+		};
+		class Item464
+		{
+			position[]={2479.2336,259.85803,9219.0771};
+			name="ha_cp_462";
+			type="Empty";
+		};
+		class Item465
+		{
+			position[]={3663.9036,324.70151,7211.1323};
+			name="ha_cp_463";
+			type="Empty";
+		};
+		class Item466
+		{
+			position[]={5971.2749,181.59962,5581.4473};
+			name="ha_cp_464";
+			type="Empty";
+		};
+		class Item467
+		{
+			position[]={5655.9673,258.19962,5775.1875};
+			name="ha_cp_465";
+			type="Empty";
+		};
+		class Item468
+		{
+			position[]={6201.6084,246.35139,5800.0181};
+			name="ha_cp_466";
+			type="Empty";
+		};
+		class Item469
+		{
+			position[]={6433.3931,320.48944,5745.543};
+			name="ha_cp_467";
+			type="Empty";
+		};
+		class Item470
+		{
+			position[]={6387.186,297.15085,5850.8745};
+			name="ha_cp_468";
+			type="Empty";
+		};
+		class Item471
+		{
+			position[]={6522.5049,321.97702,6157.3662};
+			name="ha_cp_469";
+			type="Empty";
+		};
+		class Item472
+		{
+			position[]={6591.1514,344.4989,6265.0278};
+			name="ha_cp_470";
+			type="Empty";
+		};
+		class Item473
+		{
+			position[]={6746.0811,359.59381,6099.1758};
+			name="ha_cp_471";
+			type="Empty";
+		};
+		class Item474
+		{
+			position[]={7027.1646,284.20938,5960.1699};
+			name="ha_cp_472";
 			type="Empty";
 		};
 	};

@@ -7,7 +7,7 @@ if (!isServer) exitWith {};
 {
     if (isNil "ha_gen_marker_count") then { ha_gen_marker_count = 0;};
     
-    _marker_names = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "K"];
+    _marker_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"];
     
 	_id = _x;
 	_marker = format["ha_cp_%1", _id];
@@ -51,7 +51,7 @@ if (!isServer) exitWith {};
 	// Set marker settings
 	_marker setMarkerShape "ICON";
 	_marker setMarkerType "mil_circle";
-	_marker setMarkerText format[" %1 (%2)", (_marker_names select ha_gen_marker_count), _id];
+	_marker setMarkerText format[" %1", (_marker_names select ha_gen_marker_count)];
     ha_gen_marker_count = ha_gen_marker_count + 1;
 } forEach (_this select 0);
 
