@@ -1,6 +1,5 @@
 // If the script is run by the server, start monitoring timers
 if (isServer) then {
-	player globalchat "ding from isServer";
 	[] spawn {
 		_briefingTime = 60*ha_param_briefingTime;
 		_totalTime = _briefingTime + 60*ha_param_missionTime;
@@ -17,7 +16,6 @@ if (isServer) then {
 };
 // If the script is run by the client, wait for the briefing end signal
 if (!isDedicated) then {
-	player globalchat "ding from !isDedicated";
 	waitUntil {scriptDone f_processParamsArray};
 	waitUntil {!isNil "ha_timerBriefingEnd"};
 	if (ha_param_missionTime > 0) then {
@@ -25,5 +23,4 @@ if (!isDedicated) then {
 	} else {
 		titleText ["Mission begins. Good luck!", "PLAIN"];
 	};
-	player globalchat "ding again from !isDedicated";
 };
