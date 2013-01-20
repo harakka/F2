@@ -1,4 +1,9 @@
 // If the script is run by the server, start monitoring timers
+if (f_var_debugMode == 1) then {
+	player sidechat "DEBUG: Briefing and mission times set to 1min";
+	ha_param_briefingTime = 1;
+	ha_param_missionTime = 1;
+};
 if (isServer) then {
 	[] spawn {
 		_briefingTime = 60*ha_param_briefingTime;
