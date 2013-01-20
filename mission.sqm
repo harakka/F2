@@ -156,8 +156,8 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={-786.76581,274.47681,9345.7383};
-					azimut=-362.56213;
+					position[]={-1011.975,217.74094,8168.7158};
+					azimut=-362.56201;
 					id=4;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -166,14 +166,14 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.5;
 					text="UnitCDF_CO";
-					init="GrpCDF_CO = group this; nul = [""co"",this] call f_fnc_assignGear;";
+					init="GrpCDF_CO = group this; nul = [""co"",this] call f_fnc_assignGear; this moveInDriver CDF_CAR1;";
 					description="CDF Commander";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-783.41815,274.83398,9343.4492};
-					azimut=-362.56244;
+					position[]={-1008.6273,217.03586,8166.4268};
+					azimut=-362.56201;
 					id=5;
 					side="WEST";
 					vehicle="CDF_Soldier_Medic";
@@ -181,7 +181,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_CO_M";
-					init="GrpCDF_CO = group this; nul = [""m"",this] call f_fnc_assignGear;";
+					init="GrpCDF_CO = group this; nul = [""m"",this] call f_fnc_assignGear; this moveInCargo CDF_CAR1;";
 					description="CDF Medic";
 					synchronizations[]={50,51};
 				};
@@ -195,8 +195,8 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={-787.08905,275.16843,9329.5332};
-					azimut=-362.56213;
+					position[]={-1012.2982,218.1055,8152.5107};
+					azimut=-362.56201;
 					id=6;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -205,14 +205,14 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.5;
 					text="UnitCDF_DC";
-					init="GrpCDF_DC = group this; nul = [""dc"",this] call f_fnc_assignGear;";
+					init="GrpCDF_DC = group this; nul = [""dc"",this] call f_fnc_assignGear; this moveInDriver CDF_CAR2;";
 					description="CDF Deputy Commander";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-783.04413,275.55588,9327.2793};
-					azimut=-362.56244;
+					position[]={-1008.2533,217.17505,8150.2568};
+					azimut=-362.56201;
 					id=7;
 					side="WEST";
 					vehicle="CDF_Soldier_Medic";
@@ -220,7 +220,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_DC_M";
-					init="GrpCDF_DC = group this; nul = [""m"",this] call f_fnc_assignGear;";
+					init="GrpCDF_DC = group this; nul = [""m"",this] call f_fnc_assignGear; this moveInCargo CDF_CAR2;";
 					description="CDF Medic";
 					synchronizations[]={50,51};
 				};
@@ -234,8 +234,8 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={-759.97485,277.24271,9330.0332};
-					azimut=-360.91013;
+					position[]={-985.18396,212.37065,8153.0107};
+					azimut=-360.91;
 					id=8;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -244,14 +244,14 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_ASL_SL";
-					init="GrpCDF_ASL = group this; nul = [""dc"",this] call f_fnc_assignGear;";
+					init="GrpCDF_ASL = group this; nul = [""dc"",this] call f_fnc_assignGear; this moveInDriver CDF_CAR3;";
 					description="CDF Alpha Squad Leader";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-757.5061,277.57095,9327.1035};
-					azimut=-360.91043;
+					position[]={-982.71521,212.04449,8150.0811};
+					azimut=-360.91;
 					id=9;
 					side="WEST";
 					vehicle="CDF_Soldier_Medic";
@@ -259,7 +259,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_ASL_M";
-					init="GrpCDF_ASL = group this; nul = [""m"",this] call f_fnc_assignGear;";
+					init="GrpCDF_ASL = group this; nul = [""m"",this] call f_fnc_assignGear; this moveInCargo CDF_CAR3;";
 					description="CDF Alpha Medic";
 					synchronizations[]={50,51};
 				};
@@ -273,8 +273,8 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-760.3186,278.12408,9306.6602};
-					azimut=-360.91013;
+					position[]={-985.52771,213.16824,8129.6377};
+					azimut=-360.91;
 					id=10;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -283,14 +283,14 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_A1_FTL";
-					init="GrpCDF_A1 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpCDF_A1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInDriver CDF_TR1;";
 					description="CDF Alpha 1 Fireteam Leader";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-757.84888,278.37537,9303.7266};
-					azimut=-360.91013;
+					position[]={-983.05798,213.00102,8126.7041};
+					azimut=-360.91;
 					id=11;
 					side="WEST";
 					vehicle="CDF_Soldier_AR";
@@ -298,35 +298,35 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_A1_AR";
-					init="GrpCDF_A1 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_A1 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR1;";
 					description="CDF Alpha 1 Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item2
 				{
-					position[]={-755.09692,278.5896,9303.627};
-					azimut=-360.91013;
+					position[]={-980.30603,212.78786,8126.6045};
+					azimut=-360.91;
 					id=12;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_A1_AAR";
-					init="GrpCDF_A1 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_A1 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR1;";
 					description="CDF Alpha 1 Assistant Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item3
 				{
-					position[]={-751.66138,278.85437,9303.6523};
-					azimut=-360.91013;
+					position[]={-976.87048,212.4846,8126.6299};
+					azimut=-360.91;
 					id=13;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_A1_R";
-					init="GrpCDF_A1 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpCDF_A1 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo CDF_TR1;";
 					description="CDF Alpha 1 Rifleman";
 					synchronizations[]={50,51};
 				};
@@ -340,8 +340,8 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-759.06372,277.20743,9281.9551};
-					azimut=-360.91013;
+					position[]={-984.27283,214.08827,8104.9326};
+					azimut=-360.91;
 					id=14;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -350,14 +350,14 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_A2_FTL";
-					init="GrpCDF_A2 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpCDF_A2 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInCargo CDF_TR1;";
 					description="CDF Alpha 2 Fireteam Leader";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-756.59692,277.14575,9279.0195};
-					azimut=-360.91013;
+					position[]={-981.80603,214.24062,8101.9971};
+					azimut=-360.91;
 					id=15;
 					side="WEST";
 					vehicle="CDF_Soldier_AR";
@@ -365,35 +365,35 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_A2_AR";
-					init="GrpCDF_A2 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_A2 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR1;";
 					description="CDF Alpha 2 Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item2
 				{
-					position[]={-753.84595,277.35941,9278.9199};
-					azimut=-360.91013;
+					position[]={-979.05505,214.2218,8101.8975};
+					azimut=-360.91;
 					id=16;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_A2_AAR";
-					init="GrpCDF_A2 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_A2 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR1;";
 					description="CDF Alpha 2 Assistant Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item3
 				{
-					position[]={-750.40649,277.63632,9278.9453};
-					azimut=-360.91013;
+					position[]={-975.6156,214.16817,8101.9229};
+					azimut=-360.91;
 					id=17;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_A2_R";
-					init="GrpCDF_A2 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpCDF_A2 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo CDF_TR1;";
 					description="CDF Alpha 2 Rifleman";
 					synchronizations[]={50,51};
 				};
@@ -407,8 +407,8 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-760.96606,274.86246,9259.3359};
-					azimut=-352.83221;
+					position[]={-986.17517,215.39484,8082.3135};
+					azimut=-352.832;
 					id=18;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -417,14 +417,14 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_A3_FTL";
-					init="GrpCDF_A3 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpCDF_A3 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInCargo CDF_TR1;";
 					description="CDF Alpha 3 Fireteam Leader";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-758.93774,274.74374,9256.082};
-					azimut=-352.83221;
+					position[]={-984.14685,215.45045,8079.0596};
+					azimut=-352.832;
 					id=19;
 					side="WEST";
 					vehicle="CDF_Soldier_AR";
@@ -432,35 +432,35 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_A3_AR";
-					init="GrpCDF_A3 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_A3 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR1;";
 					description="CDF Alpha 3 Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item2
 				{
-					position[]={-756.21704,274.95111,9255.5938};
-					azimut=-352.83221;
+					position[]={-981.42615,215.3755,8078.5713};
+					azimut=-352.832;
 					id=20;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_A3_AAR";
-					init="GrpCDF_A3 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_A3 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR1;";
 					description="CDF Alpha 3 Assistant Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item3
 				{
-					position[]={-752.81372,275.23312,9255.1406};
-					azimut=-352.83221;
+					position[]={-978.02283,215.25975,8078.1182};
+					azimut=-352.832;
 					id=21;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_A3_R";
-					init="GrpCDF_A3 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpCDF_A3 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo CDF_TR1;";
 					description="CDF Alpha 3 Rifleman";
 					synchronizations[]={50,51};
 				};
@@ -474,8 +474,8 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={-726.36743,278.89594,9331.2656};
-					azimut=-360.91019;
+					position[]={-949.15149,209.32452,8154.1377};
+					azimut=-360.91;
 					id=22;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -484,14 +484,14 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_BSL_SL";
-					init="GrpCDF_BSL = group this; nul = [""dc"",this] call f_fnc_assignGear;";
+					init="GrpCDF_BSL = group this; nul = [""dc"",this] call f_fnc_assignGear; this moveInDriver CDF_CAR4;";
 					description="CDF Bravo Squad Leader";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-723.89282,279.08289,9328.332};
-					azimut=-360.91043;
+					position[]={-946.67688,209.74551,8151.2041};
+					azimut=-360.91;
 					id=23;
 					side="WEST";
 					vehicle="CDF_Soldier_Medic";
@@ -499,7 +499,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_BSL_M";
-					init="GrpCDF_BSL = group this; nul = [""m"",this] call f_fnc_assignGear;";
+					init="GrpCDF_BSL = group this; nul = [""m"",this] call f_fnc_assignGear; this moveInCargo CDF_CAR4;";
 					description="CDF Bravo Medic";
 					synchronizations[]={50,51};
 				};
@@ -513,8 +513,8 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-726.1438,280.09418,9306.998};
-					azimut=-360.91019;
+					position[]={-951.35291,211.49956,8129.9756};
+					azimut=-360.91;
 					id=24;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -523,14 +523,14 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_B1_FTL";
-					init="GrpCDF_B1 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpCDF_B1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInDriver CDF_TR2;";
 					description="CDF Bravo 1 Fireteam Leader";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-723.67993,280.15298,9304.0605};
-					azimut=-360.91019;
+					position[]={-948.88904,211.98364,8127.0381};
+					azimut=-360.91;
 					id=25;
 					side="WEST";
 					vehicle="CDF_Soldier_AR";
@@ -538,35 +538,35 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_B1_AR";
-					init="GrpCDF_B1 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_B1 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR2;";
 					description="CDF Bravo 1 Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item2
 				{
-					position[]={-720.92017,280.17392,9303.9629};
-					azimut=-360.91019;
+					position[]={-946.12927,212.19025,8126.9404};
+					azimut=-360.91;
 					id=26;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_B1_AAR";
-					init="GrpCDF_B1 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_B1 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR2;";
 					description="CDF Bravo 1 Assistant Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item3
 				{
-					position[]={-717.49048,280.08151,9303.9902};
-					azimut=-360.91019;
+					position[]={-942.69958,212.46718,8126.9678};
+					azimut=-360.91;
 					id=27;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_B1_R";
-					init="GrpCDF_B1 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpCDF_B1 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo CDF_TR2;";
 					description="CDF Bravo 1 Rifleman";
 					synchronizations[]={50,51};
 				};
@@ -580,8 +580,8 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-725.59497,279.20145,9282.5273};
-					azimut=-360.91019;
+					position[]={-950.80408,214.09993,8105.5049};
+					azimut=-360.91;
 					id=28;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -590,14 +590,14 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_B2_FTL";
-					init="GrpCDF_B2 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpCDF_B2 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInCargo CDF_TR2;";
 					description="CDF Bravo 2 Fireteam Leader";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-723.12817,279.00488,9279.5938};
-					azimut=-360.91019;
+					position[]={-948.33728,214.62045,8102.5713};
+					azimut=-360.91;
 					id=29;
 					side="WEST";
 					vehicle="CDF_Soldier_AR";
@@ -605,35 +605,35 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_B2_AR";
-					init="GrpCDF_B2 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_B2 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR2;";
 					description="CDF Bravo 2 Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item2
 				{
-					position[]={-720.37915,279.02014,9279.4961};
-					azimut=-360.91019;
+					position[]={-945.58826,214.85631,8102.4736};
+					azimut=-360.91;
 					id=30;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_B2_AAR";
-					init="GrpCDF_B2 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_B2 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR2;";
 					description="CDF Bravo 2 Assistant Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item3
 				{
-					position[]={-716.93579,278.87341,9279.5234};
-					azimut=-360.91019;
+					position[]={-942.1449,215.17937,8102.501};
+					azimut=-360.91;
 					id=31;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_B2_R";
-					init="GrpCDF_B2 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpCDF_B2 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo CDF_TR2;";
 					description="CDF Bravo 2 Rifleman";
 					synchronizations[]={50,51};
 				};
@@ -647,8 +647,8 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-725.39087,277.41031,9259.3516};
-					azimut=-360.91019;
+					position[]={-950.59998,215.4767,8082.3291};
+					azimut=-360.91;
 					id=32;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -657,14 +657,14 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_B3_FTL";
-					init="GrpCDF_B3 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpCDF_B3 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInCargo CDF_TR2;";
 					description="CDF Bravo 3 Fireteam Leader";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-722.92212,277.23401,9256.4141};
-					azimut=-360.91019;
+					position[]={-948.13123,215.81914,8079.3916};
+					azimut=-360.91;
 					id=33;
 					side="WEST";
 					vehicle="CDF_Soldier_AR";
@@ -672,35 +672,35 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_B3_AR";
-					init="GrpCDF_B3 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_B3 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR2;";
 					description="CDF Bravo 3 Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item2
 				{
-					position[]={-720.17017,277.26816,9256.3164};
-					azimut=-360.91019;
+					position[]={-945.37927,216.1338,8079.2939};
+					azimut=-360.91;
 					id=34;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_B3_AAR";
-					init="GrpCDF_B3 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_B3 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR2;";
 					description="CDF Bravo 3 Assistant Automatic Rifleman";
 					synchronizations[]={51,50};
 				};
 				class Item3
 				{
-					position[]={-716.73169,277.08286,9256.3438};
-					azimut=-360.91019;
+					position[]={-941.9408,216.62579,8079.3213};
+					azimut=-360.91;
 					id=35;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_B3_R";
-					init="GrpCDF_B3 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpCDF_B3 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo CDF_TR2;";
 					description="CDF Bravo 3 Rifleman";
 					synchronizations[]={50,51};
 				};
@@ -714,8 +714,8 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={-695.74231,278.60312,9331.2266};
-					azimut=-360.91019;
+					position[]={-920.95154,211.53543,8154.2041};
+					azimut=-360.91;
 					id=36;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -724,14 +724,14 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_CSL_SL";
-					init="GrpCDF_CSL = group this; nul = [""dc"",this] call f_fnc_assignGear;";
+					init="GrpCDF_CSL = group this; nul = [""dc"",this] call f_fnc_assignGear; this moveInDriver CDF_CAR5;";
 					description="CDF Charlie Squad Leader";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-693.27844,278.65814,9328.2949};
-					azimut=-360.91043;
+					position[]={-918.48767,212.10057,8151.2725};
+					azimut=-360.91;
 					id=37;
 					side="WEST";
 					vehicle="CDF_Soldier_Medic";
@@ -739,7 +739,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_CSL_M";
-					init="GrpCDF_CSL = group this; nul = [""m"",this] call f_fnc_assignGear;";
+					init="GrpCDF_CSL = group this; nul = [""m"",this] call f_fnc_assignGear; this moveInCargo CDF_CAR5;";
 					description="CDF Charlie Medic";
 					synchronizations[]={50,51};
 				};
@@ -753,8 +753,8 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-694.75208,279.0752,9308.1465};
-					azimut=-360.91019;
+					position[]={-919.9613,214.23894,8131.124};
+					azimut=-360.91;
 					id=38;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -763,14 +763,14 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_C1_FTL";
-					init="GrpCDF_C1 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpCDF_C1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInDriver CDF_TR3;";
 					description="CDF Charlie 1 Fireteam Leader";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-692.27649,278.92975,9305.2051};
-					azimut=-360.91019;
+					position[]={-917.48572,214.90262,8128.1826};
+					azimut=-360.91;
 					id=39;
 					side="WEST";
 					vehicle="CDF_Soldier_AR";
@@ -778,35 +778,35 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_C1_AR";
-					init="GrpCDF_C1 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_C1 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR3;";
 					description="CDF Charlie 1 Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item2
 				{
-					position[]={-689.52649,278.79269,9305.1113};
-					azimut=-360.91019;
+					position[]={-914.73572,215.25345,8128.0889};
+					azimut=-360.91;
 					id=40;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_C1_AAR";
-					init="GrpCDF_C1 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_C1 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR3;";
 					description="CDF Charlie 1 Assistant Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item3
 				{
-					position[]={-686.09216,278.61203,9305.1387};
-					azimut=-360.91019;
+					position[]={-911.30115,215.72827,8128.1162};
+					azimut=-360.91;
 					id=41;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_C1_R";
-					init="GrpCDF_C1 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpCDF_C1 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo CDF_TR3;";
 					description="CDF Charlie 1 Rifleman";
 					synchronizations[]={50,51};
 				};
@@ -820,8 +820,8 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-694.15637,277.74722,9283.4824};
-					azimut=-360.91013;
+					position[]={-919.3656,217.34732,8106.46};
+					azimut=-360.91;
 					id=42;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -830,14 +830,14 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_C2_FTL";
-					init="GrpCDF_C2 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpCDF_C2 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInCargo CDF_TR3;";
 					description="CDF Charlie 2 Fireteam Leader";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-691.68567,277.28656,9280.5449};
-					azimut=-360.91013;
+					position[]={-916.8949,218.0347,8103.5225};
+					azimut=-360.91;
 					id=43;
 					side="WEST";
 					vehicle="CDF_Soldier_AR";
@@ -845,35 +845,35 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_C2_AR";
-					init="GrpCDF_C2 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_C2 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR3;";
 					description="CDF Charlie 2 Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item2
 				{
-					position[]={-688.93201,277.06693,9280.4492};
-					azimut=-360.91013;
+					position[]={-914.14099,218.43301,8103.4268};
+					azimut=-360.91;
 					id=44;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_C2_AAR";
-					init="GrpCDF_C2 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_C2 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR3;";
 					description="CDF Charlie 2 Assistant Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item3
 				{
-					position[]={-685.49841,276.78525,9280.4688};
-					azimut=-360.91013;
+					position[]={-910.7074,218.94943,8103.4463};
+					azimut=-360.91;
 					id=45;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_C2_R";
-					init="GrpCDF_C2 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpCDF_C2 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo CDF_TR3;";
 					description="CDF Charlie 2 Rifleman";
 					synchronizations[]={50,51};
 				};
@@ -887,8 +887,8 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-693.78821,275.55182,9260.2168};
-					azimut=-360.91013;
+					position[]={-918.99744,220.00063,8083.1943};
+					azimut=-360.91;
 					id=46;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
@@ -897,14 +897,14 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_C3_FTL";
-					init="GrpCDF_C3 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpCDF_C3 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInCargo CDF_TR3;";
 					description="CDF Charlie 3 Fireteam Leader";
 					synchronizations[]={50,51};
 				};
 				class Item1
 				{
-					position[]={-691.31653,275.06125,9257.2813};
-					azimut=-360.91013;
+					position[]={-916.52576,220.78046,8080.2588};
+					azimut=-360.91;
 					id=47;
 					side="WEST";
 					vehicle="CDF_Soldier_AR";
@@ -912,35 +912,35 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitCDF_C3_AR";
-					init="GrpCDF_C3 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_C3 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR3;";
 					description="CDF Charlie 3 Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item2
 				{
-					position[]={-688.5658,274.77975,9257.1836};
-					azimut=-360.91013;
+					position[]={-913.77478,221.28351,8080.1611};
+					azimut=-360.91;
 					id=48;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_C3_AAR";
-					init="GrpCDF_C3 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpCDF_C3 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo CDF_TR3;";
 					description="CDF Charlie 3 Assistant Automatic Rifleman";
 					synchronizations[]={50,51};
 				};
 				class Item3
 				{
-					position[]={-684.62244,274.38132,9257.3008};
-					azimut=-360.91013;
+					position[]={-909.83142,222.01932,8080.2783};
+					azimut=-360.91;
 					id=49;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitCDF_C3_R";
-					init="GrpCDF_C3 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpCDF_C3 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo CDF_TR3;";
 					description="CDF Charlie 3 Rifleman";
 					synchronizations[]={50,51};
 				};
@@ -954,7 +954,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-734.49829,277.73669,9368.6387};
+					position[]={-959.7074,212.05429,8191.6162};
 					azimut=-359.07797;
 					id=50;
 					side="LOGIC";
@@ -974,7 +974,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-689.64661,278.26492,9370.1113};
+					position[]={-914.85583,212.21872,8193.0889};
 					azimut=-269.10498;
 					id=51;
 					side="LOGIC";
@@ -994,7 +994,7 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={-809.33105,105.82956,4340.3125};
+					position[]={-747.5459,85.27346,2881.1011};
 					azimut=0.32468101;
 					id=52;
 					side="GUER";
@@ -1004,13 +1004,13 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.5;
 					text="UnitA2Gue_CO";
-					init="GrpA2Gue_CO = group this; nul = [""co"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_CO = group this; nul = [""co"",this] call f_fnc_assignGear; this moveInDriver A2GUE_CAR1;";
 					description="NAPA Commander";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-807.34912,105.48739,4338.2988};
+					position[]={-745.56445,85.197502,2879.0874};
 					azimut=0.32468101;
 					id=53;
 					side="GUER";
@@ -1019,7 +1019,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_CO_M";
-					init="GrpA2Gue_CO = group this; nul = [""m"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_CO = group this; nul = [""m"",this] call f_fnc_assignGear; this moveInCargo A2GUE_CAR1;";
 					description="NAPA Medic";
 					synchronizations[]={98,99};
 				};
@@ -1033,7 +1033,7 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={-808.66943,104.92648,4326.0244};
+					position[]={-746.88477,85.620239,2866.813};
 					azimut=0.32468101;
 					id=54;
 					side="GUER";
@@ -1043,13 +1043,13 @@ class Mission
 					rank="SERGEANT";
 					skill=0.5;
 					text="UnitA2Gue_DC";
-					init="GrpA2Gue_DC = group this; nul = [""dc"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_DC = group this; nul = [""dc"",this] call f_fnc_assignGear; this moveInDriver A2GUE_CAR2;";
 					description="NAPA Deputy Commander";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-805.79492,104.52142,4323.624};
+					position[]={-744.01074,85.584015,2864.4126};
 					azimut=0.32468101;
 					id=55;
 					side="GUER";
@@ -1058,7 +1058,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_DC_M";
-					init="GrpA2Gue_DC = group this; nul = [""m"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_DC = group this; nul = [""m"",this] call f_fnc_assignGear; this moveInCargo A2GUE_CAR2;";
 					description="NAPA Medic";
 					synchronizations[]={98,99};
 				};
@@ -1072,7 +1072,7 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={-780.25781,102.33196,4310.4004};
+					position[]={-718.47461,86.678307,2851.189};
 					azimut=0.32468101;
 					id=56;
 					side="GUER";
@@ -1082,13 +1082,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_ASL_SL";
-					init="GrpA2Gue_ASL = group this; nul = [""dc"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_ASL = group this; nul = [""dc"",this] call f_fnc_assignGear; this moveInDriver A2GUE_CAR3;";
 					description="NAPA Alpha Squad Leader";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-777.38281,102.38866,4308.001};
+					position[]={-715.59961,87.036476,2848.7896};
 					azimut=0.32468101;
 					id=57;
 					side="GUER";
@@ -1097,7 +1097,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_ASL_M";
-					init="GrpA2Gue_ASL = group this; nul = [""m"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_ASL = group this; nul = [""m"",this] call f_fnc_assignGear; this moveInCargo A2GUE_CAR3;";
 					description="NAPA Alpha Medic";
 					synchronizations[]={98,99};
 				};
@@ -1111,7 +1111,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-781.09082,104.55773,4284.1836};
+					position[]={-719.30664,89.152672,2824.9722};
 					azimut=0.32468101;
 					id=58;
 					side="GUER";
@@ -1121,13 +1121,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_A1_FTL";
-					init="GrpA2Gue_A1 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_A1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInDriver A2GUE_TR1;";
 					description="NAPA Alpha 1 Fireteam Leader";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-778.21631,104.60457,4281.7842};
+					position[]={-716.43164,89.351234,2822.5728};
 					azimut=0.32468101;
 					id=59;
 					side="GUER";
@@ -1136,13 +1136,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_A1_AR";
-					init="GrpA2Gue_A1 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_A1 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR1;";
 					description="NAPA Alpha 1 Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item2
 				{
-					position[]={-775.87207,104.50311,4281.6895};
+					position[]={-714.08789,89.40374,2822.478};
 					azimut=0.32468101;
 					id=60;
 					side="GUER";
@@ -1150,13 +1150,13 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_A1_AAR";
-					init="GrpA2Gue_A1 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_A1 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR1;";
 					description="NAPA Alpha 1 Assistant Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item3
 				{
-					position[]={-773.35352,104.38986,4281.6387};
+					position[]={-711.57031,89.44593,2822.4272};
 					azimut=0.32468101;
 					id=61;
 					side="GUER";
@@ -1164,7 +1164,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_A1_R";
-					init="GrpA2Gue_A1 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_A1 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR1;";
 					description="NAPA Alpha 1 Rifleman";
 					synchronizations[]={98,99};
 				};
@@ -1178,7 +1178,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-782.16797,106.53101,4257.9395};
+					position[]={-720.38477,87.983673,2798.728};
 					azimut=0.32468101;
 					id=62;
 					side="GUER";
@@ -1188,13 +1188,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_A2_FTL";
-					init="GrpA2Gue_A2 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_A2 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR1;";
 					description="NAPA Alpha 2 Fireteam Leader";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-779.29297,106.40642,4255.54};
+					position[]={-717.50977,87.852242,2796.3286};
 					azimut=0.32468101;
 					id=63;
 					side="GUER";
@@ -1203,13 +1203,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_A2_AR";
-					init="GrpA2Gue_A2 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_A2 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR1;";
 					description="NAPA Alpha 2 Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item2
 				{
-					position[]={-776.94873,106.27134,4255.4453};
+					position[]={-715.16406,87.935165,2796.2339};
 					azimut=0.32468101;
 					id=64;
 					side="GUER";
@@ -1217,13 +1217,13 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_A2_AAR";
-					init="GrpA2Gue_A2 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_A2 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR1;";
 					description="NAPA Alpha 2 Assistant Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item3
 				{
-					position[]={-774.43018,106.1256,4255.3936};
+					position[]={-712.64648,88.029625,2796.1821};
 					azimut=0.32468101;
 					id=65;
 					side="GUER";
@@ -1231,7 +1231,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_A2_R";
-					init="GrpA2Gue_A2 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_A2 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR1;";
 					description="NAPA Alpha 2 Rifleman";
 					synchronizations[]={98,99};
 				};
@@ -1245,7 +1245,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-781.6167,107.14236,4234.7383};
+					position[]={-719.83203,85.196648,2775.5269};
 					azimut=0.32468101;
 					id=66;
 					side="GUER";
@@ -1255,13 +1255,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_A3_FTL";
-					init="GrpA2Gue_A3 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_A3 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR1;";
 					description="NAPA Alpha 3 Fireteam Leader";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-778.74219,107.02772,4232.3389};
+					position[]={-716.95898,85.145782,2773.1274};
 					azimut=0.32468101;
 					id=67;
 					side="GUER";
@@ -1270,13 +1270,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_A3_AR";
-					init="GrpA2Gue_A3 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_A3 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR1;";
 					description="NAPA Alpha 3 Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item2
 				{
-					position[]={-776.39795,106.87699,4232.2441};
+					position[]={-714.61328,85.299271,2773.0327};
 					azimut=0.32468101;
 					id=68;
 					side="GUER";
@@ -1284,13 +1284,13 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_A3_AAR";
-					init="GrpA2Gue_A3 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_A3 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR1;";
 					description="NAPA Alpha 3 Assistant Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item3
 				{
-					position[]={-773.87939,106.71575,4232.1934};
+					position[]={-712.0957,85.482544,2772.9819};
 					azimut=0.32468101;
 					id=69;
 					side="GUER";
@@ -1298,7 +1298,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_A3_R";
-					init="GrpA2Gue_A3 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_A3 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR1;";
 					description="NAPA Alpha 3 Rifleman";
 					synchronizations[]={98,99};
 				};
@@ -1312,7 +1312,7 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={-750.78033,102.38213,4310.5557};
+					position[]={-688.99615,87.769646,2851.3442};
 					azimut=0.32468101;
 					id=70;
 					side="GUER";
@@ -1322,13 +1322,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_BSL_SL";
-					init="GrpA2Gue_BSL = group this; nul = [""dc"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_BSL = group this; nul = [""dc"",this] call f_fnc_assignGear; this moveInDriver A2GUE_CAR4;";
 					description="NAPA Bravo Squad Leader";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-747.90533,102.53679,4308.1563};
+					position[]={-686.12115,88.005287,2848.9448};
 					azimut=0.32468101;
 					id=71;
 					side="GUER";
@@ -1337,7 +1337,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_BSL_M";
-					init="GrpA2Gue_BSL = group this; nul = [""m"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_BSL = group this; nul = [""m"",this] call f_fnc_assignGear; this moveInCargo A2GUE_CAR4;";
 					description="NAPA Bravo Medic";
 					synchronizations[]={98,99};
 				};
@@ -1351,7 +1351,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-751.65631,103.58826,4284.0186};
+					position[]={-689.87311,89.319778,2824.8071};
 					azimut=0.32468101;
 					id=72;
 					side="GUER";
@@ -1361,13 +1361,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_B1_FTL";
-					init="GrpA2Gue_B1 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_B1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInDriver A2GUE_TR2;";
 					description="NAPA Bravo 1 Fireteam Leader";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-748.7818,103.66763,4281.6182};
+					position[]={-686.99811,89.389351,2822.4067};
 					azimut=0.32468101;
 					id=73;
 					side="GUER";
@@ -1376,13 +1376,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_B1_AR";
-					init="GrpA2Gue_B1 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_B1 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR2;";
 					description="NAPA Bravo 1 Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item2
 				{
-					position[]={-746.43756,103.63457,4281.5234};
+					position[]={-684.65436,89.368065,2822.312};
 					azimut=0.32468101;
 					id=74;
 					side="GUER";
@@ -1390,13 +1390,13 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_B1_AAR";
-					init="GrpA2Gue_B1 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_B1 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR2;";
 					description="NAPA Bravo 1 Assistant Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item3
 				{
-					position[]={-743.91901,103.59708,4281.4727};
+					position[]={-682.13483,89.355125,2822.2612};
 					azimut=0.32468101;
 					id=75;
 					side="GUER";
@@ -1404,7 +1404,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_B1_R";
-					init="GrpA2Gue_B1 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_B1 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR2;";
 					description="NAPA Bravo 1 Rifleman";
 					synchronizations[]={98,99};
 				};
@@ -1418,7 +1418,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-751.12506,104.81472,4258.2344};
+					position[]={-634.28241,88.167488,2835.0591};
 					azimut=0.32468101;
 					id=76;
 					side="GUER";
@@ -1428,13 +1428,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_B2_FTL";
-					init="GrpA2Gue_B2 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_B2 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR2;";
 					description="NAPA Bravo 2 Fireteam Leader";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-748.25006,104.73304,4255.834};
+					position[]={-686.46686,89.196281,2796.6226};
 					azimut=0.32468101;
 					id=77;
 					side="GUER";
@@ -1443,13 +1443,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_B2_AR";
-					init="GrpA2Gue_B2 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_B2 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR2;";
 					description="NAPA Bravo 2 Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item2
 				{
-					position[]={-745.90582,104.62737,4255.7393};
+					position[]={-684.12115,89.285194,2796.5278};
 					azimut=0.32468101;
 					id=78;
 					side="GUER";
@@ -1457,13 +1457,13 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_B2_AAR";
-					init="GrpA2Gue_B2 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_B2 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR2;";
 					description="NAPA Bravo 2 Assistant Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item3
 				{
-					position[]={-743.38727,104.51884,4255.6885};
+					position[]={-681.60358,89.400902,2796.4771};
 					azimut=0.32468101;
 					id=79;
 					side="GUER";
@@ -1471,7 +1471,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_B2_R";
-					init="GrpA2Gue_B2 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_B2 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR2;";
 					description="NAPA Bravo 2 Rifleman";
 					synchronizations[]={98,99};
 				};
@@ -1485,7 +1485,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-751.60162,105.21655,4233.9248};
+					position[]={-689.81842,87.930931,2774.7134};
 					azimut=0.32468101;
 					id=80;
 					side="GUER";
@@ -1495,13 +1495,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_B3_FTL";
-					init="GrpA2Gue_B3 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_B3 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR2;";
 					description="NAPA Bravo 3 Fireteam Leader";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-748.72711,105.06216,4231.5254};
+					position[]={-686.94342,88.174446,2772.314};
 					azimut=0.32468101;
 					id=81;
 					side="GUER";
@@ -1510,13 +1510,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_B3_AR";
-					init="GrpA2Gue_B3 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_B3 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR2;";
 					description="NAPA Bravo 3 Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item2
 				{
-					position[]={-746.38239,104.91614,4231.4307};
+					position[]={-684.59772,88.431839,2772.2192};
 					azimut=0.32468101;
 					id=82;
 					side="GUER";
@@ -1524,13 +1524,13 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_B3_AAR";
-					init="GrpA2Gue_B3 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_B3 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR2;";
 					description="NAPA Bravo 3 Assistant Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item3
 				{
-					position[]={-743.86383,104.75893,4231.3789};
+					position[]={-682.08014,88.714394,2772.1675};
 					azimut=0.32468101;
 					id=83;
 					side="GUER";
@@ -1538,7 +1538,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_B3_R";
-					init="GrpA2Gue_B3 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_B3 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR2;";
 					description="NAPA Bravo 3 Rifleman";
 					synchronizations[]={98,99};
 				};
@@ -1552,7 +1552,7 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={-719.89948,103.10589,4311.167};
+					position[]={-658.11554,88.633682,2851.9556};
 					azimut=0.32468101;
 					id=84;
 					side="GUER";
@@ -1562,13 +1562,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_CSL_SL";
-					init="GrpA2Gue_CSL = group this; nul = [""dc"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_CSL = group this; nul = [""dc"",this] call f_fnc_assignGear; this moveInDriver A2GUE_CAR5;";
 					description="NAPA Charlie Squad Leader";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-717.02448,103.22711,4308.7676};
+					position[]={-655.24054,88.658066,2849.5562};
 					azimut=0.32468101;
 					id=85;
 					side="GUER";
@@ -1577,7 +1577,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_CSL_M";
-					init="GrpA2Gue_CSL = group this; nul = [""m"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_CSL = group this; nul = [""m"",this] call f_fnc_assignGear; this moveInCargo A2GUE_CAR5;";
 					description="NAPA Charlie Medic";
 					synchronizations[]={98,99};
 				};
@@ -1591,7 +1591,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-719.54401,103.24934,4284.2471};
+					position[]={-657.76007,89.258469,2825.0356};
 					azimut=0.32468101;
 					id=86;
 					side="GUER";
@@ -1601,13 +1601,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_C1_FTL";
-					init="GrpA2Gue_C1 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_C1 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInDriver A2GUE_TR3;";
 					description="NAPA Charlie 1 Fireteam Leader";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-716.66949,103.37505,4281.8477};
+					position[]={-654.88507,89.290161,2822.6362};
 					azimut=0.32468101;
 					id=87;
 					side="GUER";
@@ -1616,13 +1616,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_C1_AR";
-					init="GrpA2Gue_C1 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_C1 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR3;";
 					description="NAPA Charlie 1 Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item2
 				{
-					position[]={-714.32477,103.46014,4281.7529};
+					position[]={-652.54132,89.266296,2822.5415};
 					azimut=0.32468101;
 					id=88;
 					side="GUER";
@@ -1630,13 +1630,13 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_C1_AAR";
-					init="GrpA2Gue_C1 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_C1 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR3;";
 					description="NAPA Charlie 1 Assistant Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item3
 				{
-					position[]={-711.80621,103.56092,4281.7021};
+					position[]={-650.02179,89.181656,2822.4907};
 					azimut=0.32468101;
 					id=89;
 					side="GUER";
@@ -1644,7 +1644,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_C1_R";
-					init="GrpA2Gue_C1 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_C1 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR3;";
 					description="NAPA Charlie 1 Rifleman";
 					synchronizations[]={98,99};
 				};
@@ -1658,7 +1658,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-719.89557,103.69331,4258.4932};
+					position[]={-658.11163,90.116043,2799.2817};
 					azimut=0.32468101;
 					id=90;
 					side="GUER";
@@ -1668,13 +1668,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_C2_FTL";
-					init="GrpA2Gue_C2 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_C2 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR3;";
 					description="NAPA Charlie 2 Fireteam Leader";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-717.02155,103.80785,4256.0938};
+					position[]={-655.23859,90.204857,2796.8823};
 					azimut=0.32468101;
 					id=91;
 					side="GUER";
@@ -1683,13 +1683,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_C2_AR";
-					init="GrpA2Gue_C2 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_C2 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR3;";
 					description="NAPA Charlie 2 Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item2
 				{
-					position[]={-714.67682,103.87929,4255.999};
+					position[]={-652.89288,90.213165,2796.7876};
 					azimut=0.32468101;
 					id=92;
 					side="GUER";
@@ -1697,13 +1697,13 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_C2_AAR";
-					init="GrpA2Gue_C2 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_C2 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR3;";
 					description="NAPA Charlie 2 Assistant Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item3
 				{
-					position[]={-712.15778,103.9616,4255.9482};
+					position[]={-650.37335,90.187469,2796.7368};
 					azimut=0.32468101;
 					id=93;
 					side="GUER";
@@ -1711,7 +1711,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_C2_R";
-					init="GrpA2Gue_C2 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_C2 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR3;";
 					description="NAPA Charlie 2 Rifleman";
 					synchronizations[]={98,99};
 				};
@@ -1725,7 +1725,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={-719.09381,103.71262,4234.4141};
+					position[]={-657.31085,90.797569,2775.2026};
 					azimut=0.32468101;
 					id=94;
 					side="GUER";
@@ -1735,13 +1735,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_C3_FTL";
-					init="GrpA2Gue_C3 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_C3 = group this; nul = [""ftl"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR3;";
 					description="NAPA Charlie 3 Fireteam Leader";
 					synchronizations[]={98,99};
 				};
 				class Item1
 				{
-					position[]={-716.2193,103.75447,4232.0146};
+					position[]={-654.43585,90.894051,2772.8032};
 					azimut=0.32468101;
 					id=95;
 					side="GUER";
@@ -1750,13 +1750,13 @@ class Mission
 					rank="CORPORAL";
 					skill=0.5;
 					text="UnitA2Gue_C3_AR";
-					init="GrpA2Gue_C3 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_C3 = group this; nul = [""ar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR3;";
 					description="NAPA Charlie 3 Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item2
 				{
-					position[]={-713.87506,103.80981,4231.9199};
+					position[]={-652.0921,90.941132,2772.7085};
 					azimut=0.32468101;
 					id=96;
 					side="GUER";
@@ -1764,13 +1764,13 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_C3_AAR";
-					init="GrpA2Gue_C3 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_C3 = group this; nul = [""aar"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR3;";
 					description="NAPA Charlie 3 Assistant Automatic Rifleman";
 					synchronizations[]={98,99};
 				};
 				class Item3
 				{
-					position[]={-711.35602,103.88567,4231.8691};
+					position[]={-649.57257,90.979416,2772.6577};
 					azimut=0.32468101;
 					id=97;
 					side="GUER";
@@ -1778,7 +1778,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.5;
 					text="UnitA2Gue_C3_R";
-					init="GrpA2Gue_C3 = group this; nul = [""r"",this] call f_fnc_assignGear;";
+					init="GrpA2Gue_C3 = group this; nul = [""r"",this] call f_fnc_assignGear; this moveInCargo A2GUE_TR3;";
 					description="NAPA Charlie 3 Rifleman";
 					synchronizations[]={98,99};
 				};
@@ -1792,7 +1792,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-746.78375,103.62374,4341.6113};
+					position[]={-685.00006,86.687218,2882.3999};
 					azimut=0.32468101;
 					id=98;
 					side="LOGIC";
@@ -1811,7 +1811,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-686.81012,106.01245,4340.4404};
+					position[]={-625.0257,87.41317,2881.229};
 					azimut=0.32468101;
 					id=99;
 					side="LOGIC";
@@ -1828,179 +1828,179 @@ class Mission
 		items=16;
 		class Item0
 		{
-			position[]={-794.71991,273.7402,9347.9063};
+			position[]={-963.20618,209.11519,8153.1538};
 			azimut=0.32468101;
 			id=100;
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.60000002;
 			text="CDF_CAR1";
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item1
 		{
-			position[]={-794.35858,274.48599,9333.082};
+			position[]={-952.72351,209.1044,8154.1587};
 			azimut=0.32468101;
 			id=101;
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.60000002;
 			text="CDF_CAR2";
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item2
 		{
-			position[]={-763.77173,276.83966,9332.5371};
+			position[]={-969.26501,210.45111,8144.856};
 			azimut=0.32468101;
 			id=102;
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.60000002;
 			text="CDF_CAR3";
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item3
 		{
-			position[]={-731.32544,278.68448,9333.168};
+			position[]={-957.79968,209.63565,8145.1694};
 			azimut=0.32468101;
 			id=103;
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.60000002;
 			text="CDF_CAR4";
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item4
 		{
-			position[]={-699.47668,278.56339,9332.8809};
+			position[]={-946.19397,210.40485,8144.5654};
 			azimut=0.32468101;
 			id=104;
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.60000002;
 			text="CDF_CAR5";
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item5
 		{
-			position[]={-812.42676,106.78866,4349.0107};
+			position[]={-696.27466,86.417686,2866.7034};
 			azimut=0.32468101;
 			id=105;
 			side="EMPTY";
 			vehicle="UAZ_Unarmed_TK_CIV_EP1";
 			skill=0.60000002;
 			text="A2GUE_CAR1";
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item6
 		{
-			position[]={-814.41113,105.82568,4332.2793};
+			position[]={-682.78058,87.255981,2867.4236};
 			azimut=0.32468101;
 			id=106;
 			side="EMPTY";
 			vehicle="UAZ_Unarmed_TK_CIV_EP1";
 			skill=0.60000002;
 			text="A2GUE_CAR2";
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item7
 		{
-			position[]={-779.4043,101.9491,4317.4951};
+			position[]={-704.12549,86.667992,2857.228};
 			azimut=0.32468101;
 			id=107;
 			side="EMPTY";
 			vehicle="UAZ_Unarmed_TK_CIV_EP1";
 			skill=0.60000002;
 			text="A2GUE_CAR3";
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item8
 		{
-			position[]={-750.92682,102.19479,4317.4697};
+			position[]={-689.14264,87.337379,2858.2583};
 			azimut=0.32468101;
 			id=108;
 			side="EMPTY";
 			vehicle="UAZ_Unarmed_TK_CIV_EP1";
 			skill=0.60000002;
 			text="A2GUE_CAR4";
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item9
 		{
-			position[]={-724.60748,103.02705,4317.7256};
+			position[]={-676.10895,87.962288,2857.8816};
 			azimut=0.32468101;
 			id=109;
 			side="EMPTY";
 			vehicle="UAZ_Unarmed_TK_CIV_EP1";
 			skill=0.60000002;
 			text="A2GUE_CAR5";
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item10
 		{
-			position[]={-791.85254,105.00668,4288.8799};
+			position[]={-704.61597,88.065704,2841.7922};
 			azimut=0.32468101;
 			id=110;
 			side="EMPTY";
 			vehicle="V3S_Gue";
 			skill=0.60000002;
 			text="A2GUE_TR1";
-			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item11
 		{
-			position[]={-757.36285,103.55449,4286.3477};
+			position[]={-688.9212,88.400566,2841.2966};
 			azimut=0.32468101;
 			id=111;
 			side="EMPTY";
 			vehicle="V3S_Gue";
 			skill=0.60000002;
 			text="A2GUE_TR2";
-			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item12
 		{
-			position[]={-724.98151,103.25455,4286.4824};
+			position[]={-676.20392,88.591309,2841.8152};
 			azimut=0.32468101;
 			id=112;
 			side="EMPTY";
 			vehicle="V3S_Gue";
 			skill=0.60000002;
 			text="A2GUE_TR3";
-			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item13
 		{
-			position[]={-764.9494,277.64798,9310.0996};
+			position[]={-969.49377,211.44156,8132.7607};
 			azimut=0.32468101;
 			id=113;
 			side="EMPTY";
 			vehicle="UralOpen_CDF";
 			skill=1;
 			text="CDF_TR1";
-			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item14
 		{
-			position[]={-732.29712,279.83395,9309.916};
+			position[]={-957.50623,210.82597,8132.8936};
 			azimut=0.32468101;
 			id=114;
 			side="EMPTY";
 			vehicle="UralOpen_CDF";
 			skill=1;
 			text="CDF_TR2";
-			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 		class Item15
 		{
-			position[]={-700.73157,279.31946,9309.3184};
+			position[]={-946.50012,211.52652,8133.1401};
 			azimut=0.32468101;
 			id=115;
 			side="EMPTY";
 			vehicle="UralOpen_CDF";
 			skill=1;
 			text="CDF_TR3";
-			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+			init="nul = [""v_empty"",this] call f_fnc_assignGear;";
 		};
 	};
 	class Markers
@@ -4642,13 +4642,13 @@ class Mission
 		};
 		class Item439
 		{
-			position[]={-722.4212,280.13831,9305.7373};
+			position[]={-957.73889,209.81613,8143.312};
 			name="ha_blu_start";
 			type="Empty";
 		};
 		class Item440
 		{
-			position[]={-748.59961,103.63511,4282.3818};
+			position[]={-688.67706,87.385658,2857.8076};
 			name="ha_res_start";
 			type="Empty";
 		};

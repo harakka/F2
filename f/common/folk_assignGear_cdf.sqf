@@ -532,6 +532,13 @@ switch (_typeofUnit) do
 		};
 	};
 
+// CARGO: EMPTY - remove everything from vehicle
+	case "v_empty":
+	{
+		clearWeaponCargoGlobal _unit;
+		clearMagazineCargoGlobal _unit;
+	};	
+
 // CARGO: CAR - room for 10 weapons and 50 cargo items
 	case "v_car":
 	{
