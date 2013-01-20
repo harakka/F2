@@ -61,6 +61,24 @@ class Params
 // ============================================================================================
 // Custom options for Cratesistance
 
+		class ha_param_briefingTime
+		{
+				title = "Briefing length (minutes)";
+				values[] = {2,3,4,5};
+				texts[] = {"2","3","4","5"};
+				default = 3;
+				code = "ha_param_briefingTime = %1";
+		};
+
+		class ha_param_missionTime
+		{
+				title = "Mission length (minutes)";
+				values[] = {0,15,20,25,30,35,40, 45, 50, 55, 60};
+				texts[] = {"Disable timer","15","20","25","30","35","40", "45", "50", "55", "60"};
+				default = 0;
+				code = "ha_param_missionTime = %1";
+		};
+
 		class ha_param_checkpointNum
 		{
 				title = "Number of caches";

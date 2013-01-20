@@ -258,6 +258,7 @@ ha_missionInitHandle = [] execVM "ha_serverCreateMission.sqf";
 
 "ha_bluMarkers" addPublicVariableEventhandler {execVM "ha_clientAwarenessMarkers.sqf";};
 
+[] execVM "ha_missionTimers.sqf";
+
 [] execVM "ha_clientIntro.sqf";
 
-cutRsc ["introImage", "PLAIN", 1];
