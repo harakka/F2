@@ -43,8 +43,8 @@ Each cache is guarded by 2-5 friendly AI units. CDF must use satchel charges to 
 TRANSPORT
 <br/>
 <br/>
-5x UAZ<br/>
-3x Transport truck
+5x UAZ with CO, DC and SL elements pre-mounted per UAZ<br/>
+3x Transport truck with squad pre-mounted per truck</br>
 "]];
 
 // ====================================================================================

@@ -44,8 +44,8 @@ Satchel charges must be used to destroy caches. All fireteam members are equippe
 <br/><br/>
 TRANSPORT
 <br/>
-5x UAZ<br/>
-3x Transport truck
+5x UAZ with CO, DC and SL elements pre-mounted per UAZ<br/>
+3x Transport truck with squad pre-mounted per truck</br>
 "]];
 
 // ====================================================================================
