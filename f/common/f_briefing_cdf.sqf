@@ -44,7 +44,8 @@ Satchel charges must be used to destroy caches. All fireteam members are equippe
 <br/><br/>
 TRANSPORT
 <br/>
-3x Transport truck, indicated by a map marker.
+5x UAZ<br/>
+3x Transport truck
 "]];
 
 // ====================================================================================
@@ -71,7 +72,7 @@ Destroy NAPA weapon caches. Mission is successful once either %1 out of %2 cache
 White circles indicate cache locations. Red circles indicate destroyed caches. Your mission is successful once the set number of caches have been destroyed, or NAPA units have been eliminated.
 <br/><br/>
 NOTE: Cache markers will only be visible AFTER briefing phase ends, and your starting positions will also change (via automatic teleport).
-", ha_param_checkpointVictoryNum, ha_param_checkpointNum]]];
+", ha_param_checkpointVictoryNum, ha_param_checkpointNum+5]]];
 
 // ====================================================================================
 

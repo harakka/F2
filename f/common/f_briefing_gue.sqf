@@ -42,7 +42,9 @@ Each cache is guarded by 2-5 friendly AI units. CDF must use satchel charges to 
 <br/><br/>
 TRANSPORT
 <br/>
-3x Transport truck, indicated by a map marker.
+<br/>
+5x UAZ<br/>
+3x Transport truck
 "]];
 
 // ====================================================================================
@@ -69,7 +71,7 @@ Protect the weapon caches and eliminate CDF troops. The enemy is victorious if t
 White circles indicate cache locations. Red circles indicate destroyed caches.
 <br/><br/>
 NOTE: Cache markers will only be visible AFTER briefing phase ends, and your starting positions will also change (via automatic teleport).
-", ha_param_checkpointVictoryNum, ha_param_checkpointNum]]];
+", ha_param_checkpointVictoryNum, ha_param_checkpointNum+5]]];
 
 // ====================================================================================
 
