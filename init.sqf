@@ -248,3 +248,5 @@ player setVariable ["BIS_noCoreConversations", true];
 // Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
 
 [false] execVM "f\common\f_groupJoinAddOption.sqf";
+
+execVM "scripts\DRN\DynamicWeatherEffects\DynamicWeatherEffects.sqf";
