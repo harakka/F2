@@ -55,11 +55,16 @@ _objects = nearestobjects [_aPos,_types,_range];
 
   _origPos = [((_dPos select 0) + (_dst * sin _dir)), ((_dPos select 1) + (_dst * cos _dir)), 0];
   
-  _correctedPos = _origPos findEmptyPosition [0, 300, typeOf _x];
+  //_correctedPos = _origPos findEmptyPosition [0, 300, typeOf _x];
+  if (_x isKindOf "Car") then { _correctedPos = _origPos findEmptyPosition [8, 300, typeOf _x];
+  } else {
+    _correctedPos = _origPos findEmptyPosition [1, 300, typeOf _x];
+  };
   if (count _correctedPos == 0) then {
 	_x globalChat "WARNING: Failed to find empty position for unit, damage may occur.";
 	_x setPos _origPos;
   } else {
     _x setPos _correctedPos;
   };
+  sleep 0.1;
 } foreach _objects;

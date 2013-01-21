@@ -8,35 +8,9 @@ class Mission
 		"ca_modules_functions",
 		"ca_missions_battlefieldclearance",
 		"ca_missions_alternativeinjurysimulation",
-		"CACharacters_BAF",
-		"cawheeled_e_stryker",
-		"CATracked_E",
-		"caair_e_ch_47f",
-		"CAAir_E_AH64D",
-		"CATracked_BAF",
-		"CAAir_BAF",
-		"catracked_e_t55",
-		"caair_e_mi8",
-		"CAAir_E",
-		"cacharacters_pmc",
-		"CATracked",
-		"CAAir_E_UH1H_EP1",
-		"caair_pmc_ka60",
-		"CATracked_E_M2A2_Bradley",
-		"CAAir_E_UH60M",
 		"cacharacters2",
-		"CATracked2_BMP3",
-		"caair",
-		"CAAir2",
-		"CAWheeled2_LAV25",
-		"CA_AH64D",
-		"cawheeled_e_brdm2",
 		"CAWheeled",
 		"CAWheeled_E",
-		"cawheeled_e_v3s",
-		"cawheeled_e_btr40",
-		"cawheeled_d_baf",
-		"caweapons_baf",
 		"CAWheeled2_V3S",
 		"CAWheeled2_MTVR",
 		"CAWheeled2_Kamaz"
@@ -56,7 +30,7 @@ class Mission
 	randomSeed=3165154;
 	class Intel
 	{
-		briefingName="faco_adv94_cratesistance_v3";
+		briefingName="faco_adv94_cratesistance_v4";
 		briefingDescription="CDF seeks and destroys NAPA-defended caches. Heavily randomized.";
 		resistanceWest=0;
 		startWeather=0.25;
@@ -4054,7 +4028,7 @@ class Mission
 		};
 		class Item341
 		{
-			position[]={6557.1777,335.53186,9298.0283};
+			position[]={6759.0464,345.76553,9277.5596};
 			name="ha_cp_341";
 			type="Empty";
 		};
