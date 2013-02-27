@@ -40,7 +40,8 @@ class Mission
 		"CAWheeled2_V3S",
 		"CAWheeled2_MTVR",
 		"CAWheeled2_Kamaz",
-		"chernarus"
+		"chernarus",
+		"caweapons"
 	};
 	addOnsAuto[]=
 	{
@@ -49,7 +50,6 @@ class Mission
 		"cacharacters2",
 		"ca_missions_battlefieldclearance",
 		"ca_missions_alternativeinjurysimulation",
-		"CATracked",
 		"caair",
 		"CAAir2",
 		"CAWheeled",
@@ -70,7 +70,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=36;
+		items=30;
 		class Item0
 		{
 			side="WEST";
@@ -158,11 +158,11 @@ class Mission
 				class Item0
 				{
 					position[]={9938.4531,21.834999,2206.489};
-					azimut=-362.56213;
+					azimut=-362.56201;
 					id=4;
 					side="WEST";
 					vehicle="CDF_Soldier_TL";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.5;
@@ -945,81 +945,9 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={10056.895,13.159788,2164.937};
-					azimut=0.59491414;
-					id=52;
-					side="WEST";
-					vehicle="CDF_Soldier_RPG";
-					player="PLAY CDG";
-					leader=1;
-					rank="CORPORAL";
-					skill=0.5;
-					text="UnitCDF_MAT1_G";
-					init="GrpCDF_MAT1 = group this; nul = [""matg"",this] call f_fnc_assignGear;";
-					description="CDF Medium AT Team 1 Gunner";
-				};
-				class Item1
-				{
-					position[]={10060.107,12.503543,2162.468};
-					azimut=0.59491414;
-					id=53;
-					side="WEST";
-					vehicle="CDF_Soldier";
-					player="PLAY CDG";
-					skill=0.5;
-					text="UnitCDF_MAT1_AG";
-					init="GrpCDF_MAT1 = group this; nul = [""matag"",this] call f_fnc_assignGear;";
-					description="CDF Medium AT Team 1 Assistant Gunner";
-				};
-			};
-		};
-		class Item20
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=2;
-				class Item0
-				{
-					position[]={10056.564,10.978249,2152.553};
-					azimut=0.59491414;
-					id=54;
-					side="WEST";
-					vehicle="CDF_Soldier_RPG";
-					player="PLAY CDG";
-					leader=1;
-					rank="CORPORAL";
-					skill=0.5;
-					text="UnitCDF_HAT1_G";
-					init="GrpCDF_HAT1 = group this; nul = [""hatg"",this] call f_fnc_assignGear;";
-					description="CDF Heavy AT Team 1 Gunner";
-				};
-				class Item1
-				{
-					position[]={10059.422,10.558542,2151.1125};
-					azimut=0.59491414;
-					id=55;
-					side="WEST";
-					vehicle="CDF_Soldier";
-					player="PLAY CDG";
-					skill=0.5;
-					text="UnitCDF_HAT1_AG";
-					init="GrpCDF_HAT1 = group this; nul = [""hatag"",this] call f_fnc_assignGear;";
-					description="CDF Heavy AT Team 1 Assistant Gunner";
-				};
-			};
-		};
-		class Item21
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=2;
-				class Item0
-				{
 					position[]={10056.504,9.0312634,2141.114};
 					azimut=0.59491414;
-					id=56;
+					id=52;
 					side="WEST";
 					vehicle="CDF_Soldier_Strela";
 					player="PLAY CDG";
@@ -1034,7 +962,7 @@ class Mission
 				{
 					position[]={10059.732,8.5983896,2139.2803};
 					azimut=0.59491414;
-					id=57;
+					id=53;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
@@ -1045,7 +973,7 @@ class Mission
 				};
 			};
 		};
-		class Item22
+		class Item20
 		{
 			side="WEST";
 			class Vehicles
@@ -1055,7 +983,7 @@ class Mission
 				{
 					position[]={10059.652,14.414991,2173.9585};
 					azimut=1.139958;
-					id=58;
+					id=54;
 					side="WEST";
 					vehicle="CDF_Soldier_Sniper";
 					player="PLAY CDG";
@@ -1070,7 +998,7 @@ class Mission
 				{
 					position[]={10056.196,15.208261,2177.7532};
 					azimut=1.139958;
-					id=59;
+					id=55;
 					side="WEST";
 					vehicle="CDF_Soldier_Spotter";
 					player="PLAY CDG";
@@ -1081,7 +1009,7 @@ class Mission
 				};
 			};
 		};
-		class Item23
+		class Item21
 		{
 			side="WEST";
 			class Vehicles
@@ -1091,7 +1019,7 @@ class Mission
 				{
 					position[]={10078.422,15.154457,2190.1418};
 					azimut=3.1134231;
-					id=60;
+					id=56;
 					side="WEST";
 					vehicle="CDF_Soldier_Engineer";
 					player="PLAY CDG";
@@ -1106,7 +1034,7 @@ class Mission
 				{
 					position[]={10082.09,14.910415,2190.2095};
 					azimut=3.1134231;
-					id=61;
+					id=57;
 					side="WEST";
 					vehicle="CDF_Soldier_Engineer";
 					player="PLAY CDG";
@@ -1117,203 +1045,7 @@ class Mission
 				};
 			};
 		};
-		class Item24
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=3;
-				class Item0
-				{
-					position[]={9967.7305,5.4604096,2089.1719};
-					azimut=1.4615065;
-					id=62;
-					side="WEST";
-					vehicle="CDF_Soldier_Crew";
-					player="PLAY CDG";
-					leader=1;
-					rank="CORPORAL";
-					skill=0.5;
-					text="UnitCDF_IFV1_C";
-					init="GrpCDF_IFV1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInCommander CDF_IFV1;";
-					description="CDF IFV 1 Commander";
-				};
-				class Item1
-				{
-					position[]={9969.7227,5.7816429,2086.688};
-					azimut=1.4615065;
-					id=63;
-					side="WEST";
-					vehicle="CDF_Soldier_Crew";
-					player="PLAY CDG";
-					skill=0.5;
-					text="UnitCDF_IFV1_D";
-					init="GrpCDF_IFV1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver CDF_IFV1;";
-					description="CDF IFV 1 Driver";
-				};
-				class Item2
-				{
-					position[]={9972.707,5.787714,2086.6406};
-					azimut=1.4615065;
-					id=64;
-					side="WEST";
-					vehicle="CDF_Soldier_Crew";
-					player="PLAY CDG";
-					skill=0.5;
-					text="UnitCDF_IFV1_G";
-					init="GrpCDF_IFV1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner CDF_IFV1;";
-					description="CDF IFV 1 Gunner";
-				};
-			};
-		};
-		class Item25
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=3;
-				class Item0
-				{
-					position[]={10003.496,5.9323735,2085.666};
-					azimut=1.4615065;
-					id=65;
-					side="WEST";
-					vehicle="CDF_Soldier_Crew";
-					player="PLAY CDG";
-					leader=1;
-					rank="CORPORAL";
-					skill=0.5;
-					text="UnitCDF_IFV2_C";
-					init="GrpCDF_IFV2 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInCommander CDF_IFV2;";
-					description="CDF IFV 2 Commander";
-				};
-				class Item1
-				{
-					position[]={10006.174,5.8376846,2086.8179};
-					azimut=1.4615065;
-					id=66;
-					side="WEST";
-					vehicle="CDF_Soldier_Crew";
-					player="PLAY CDG";
-					skill=0.5;
-					text="UnitCDF_IFV2_D";
-					init="GrpCDF_IFV2 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver CDF_IFV2;";
-					description="CDF IFV 2 Driver";
-				};
-				class Item2
-				{
-					position[]={10009.16,5.8419719,2086.7698};
-					azimut=1.4615065;
-					id=67;
-					side="WEST";
-					vehicle="CDF_Soldier_Crew";
-					player="PLAY CDG";
-					skill=0.5;
-					text="UnitCDF_IFV2_G";
-					init="GrpCDF_IFV2 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner CDF_IFV2;";
-					description="CDF IFV 2 Gunner";
-				};
-			};
-		};
-		class Item26
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=3;
-				class Item0
-				{
-					position[]={10031.318,5.8191633,2087.6277};
-					azimut=1.4615065;
-					id=68;
-					side="WEST";
-					vehicle="CDF_Soldier_Crew";
-					player="PLAY CDG";
-					leader=1;
-					rank="CORPORAL";
-					skill=0.5;
-					text="UnitCDF_IFV3_C";
-					init="GrpCDF_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInCommander CDF_IFV3;";
-					description="CDF IFV 3 Commander";
-				};
-				class Item1
-				{
-					position[]={10033.309,5.9423304,2085.1445};
-					azimut=1.4615065;
-					id=69;
-					side="WEST";
-					vehicle="CDF_Soldier_Crew";
-					player="PLAY CDG";
-					skill=0.5;
-					text="UnitCDF_IFV3_D";
-					init="GrpCDF_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver CDF_IFV3;";
-					description="CDF IFV 3 Driver";
-				};
-				class Item2
-				{
-					position[]={10036.295,5.9965134,2085.0967};
-					azimut=1.4615065;
-					id=70;
-					side="WEST";
-					vehicle="CDF_Soldier_Crew";
-					player="PLAY CDG";
-					skill=0.5;
-					text="UnitCDF_IFV3_G";
-					init="GrpCDF_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner CDF_IFV3;";
-					description="CDF IFV 3 Gunner";
-				};
-			};
-		};
-		class Item27
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=3;
-				class Item0
-				{
-					position[]={10048.9,5.9998579,2065.3896};
-					azimut=1.4615065;
-					id=71;
-					side="WEST";
-					vehicle="CDF_Soldier_Crew";
-					player="PLAY CDG";
-					leader=1;
-					rank="CORPORAL";
-					skill=0.5;
-					text="UnitCDF_TNK1_C";
-					init="GrpCDF_TNK1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInCommander CDF_TNK1;";
-					description="CDF Tank 1 Commander";
-				};
-				class Item1
-				{
-					position[]={10050.664,5.9998579,2063.0955};
-					azimut=1.4615065;
-					id=72;
-					side="WEST";
-					vehicle="CDF_Soldier_Crew";
-					player="PLAY CDG";
-					skill=0.5;
-					text="UnitCDF_TNK1_D";
-					init="GrpCDF_TNK1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver CDF_TNK1;";
-					description="CDF Tank 1 Driver";
-				};
-				class Item2
-				{
-					position[]={10053.131,5.9998579,2063.2471};
-					azimut=1.4615065;
-					id=73;
-					side="WEST";
-					vehicle="CDF_Soldier_Crew";
-					player="PLAY CDG";
-					skill=0.5;
-					text="UnitCDF_TNK1_G";
-					init="GrpCDF_TNK1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner CDF_TNK1;";
-					description="CDF Tank 1 Gunner";
-				};
-			};
-		};
-		class Item28
+		class Item22
 		{
 			side="WEST";
 			class Vehicles
@@ -1323,7 +1055,7 @@ class Mission
 				{
 					position[]={10071.574,5.9638929,2077.8003};
 					azimut=1.4615065;
-					id=74;
+					id=58;
 					side="WEST";
 					vehicle="CDF_Soldier_Pilot";
 					player="PLAY CDG";
@@ -1338,7 +1070,7 @@ class Mission
 				{
 					position[]={10074.305,5.9681807,2075.9187};
 					azimut=1.4615065;
-					id=75;
+					id=59;
 					side="WEST";
 					vehicle="CDF_Soldier_Pilot";
 					player="PLAY CDG";
@@ -1349,7 +1081,7 @@ class Mission
 				};
 			};
 		};
-		class Item29
+		class Item23
 		{
 			side="WEST";
 			class Vehicles
@@ -1359,7 +1091,7 @@ class Mission
 				{
 					position[]={10099.309,5.9998579,2075.6433};
 					azimut=1.4615065;
-					id=76;
+					id=60;
 					side="WEST";
 					vehicle="CDF_Soldier_Pilot";
 					player="PLAY CDG";
@@ -1374,7 +1106,7 @@ class Mission
 				{
 					position[]={10102.039,5.9998579,2073.7617};
 					azimut=1.4615065;
-					id=77;
+					id=61;
 					side="WEST";
 					vehicle="CDF_Soldier_Pilot";
 					player="PLAY CDG";
@@ -1385,7 +1117,7 @@ class Mission
 				};
 			};
 		};
-		class Item30
+		class Item24
 		{
 			side="WEST";
 			class Vehicles
@@ -1395,7 +1127,7 @@ class Mission
 				{
 					position[]={10119.748,10.822751,2079.5869};
 					azimut=1.4615065;
-					id=78;
+					id=62;
 					side="WEST";
 					vehicle="CDF_Soldier_Pilot";
 					player="PLAY CDG";
@@ -1410,7 +1142,7 @@ class Mission
 				{
 					position[]={10122.479,5.9998579,2077.7058};
 					azimut=1.4615065;
-					id=79;
+					id=63;
 					side="WEST";
 					vehicle="CDF_Soldier_Pilot";
 					player="PLAY CDG";
@@ -1421,7 +1153,7 @@ class Mission
 				};
 			};
 		};
-		class Item31
+		class Item25
 		{
 			side="WEST";
 			class Vehicles
@@ -1431,7 +1163,7 @@ class Mission
 				{
 					position[]={10076.92,11.172509,2161.5879};
 					azimut=-4.8891091;
-					id=80;
+					id=64;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
@@ -1444,7 +1176,7 @@ class Mission
 				{
 					position[]={10080.406,10.986219,2161.9607};
 					azimut=-4.8891091;
-					id=81;
+					id=65;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
@@ -1456,7 +1188,7 @@ class Mission
 				{
 					position[]={10083.453,10.828596,2162.272};
 					azimut=-4.8891091;
-					id=82;
+					id=66;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
@@ -1468,7 +1200,7 @@ class Mission
 				{
 					position[]={10086.604,10.658801,2162.5923};
 					azimut=-4.8891091;
-					id=83;
+					id=67;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
@@ -1480,7 +1212,7 @@ class Mission
 				{
 					position[]={10077.801,10.483077,2157.6887};
 					azimut=-4.8891091;
-					id=84;
+					id=68;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
@@ -1492,7 +1224,7 @@ class Mission
 				{
 					position[]={10080.846,10.335581,2158.0005};
 					azimut=-4.8891091;
-					id=85;
+					id=69;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
@@ -1504,7 +1236,7 @@ class Mission
 				{
 					position[]={10083.996,10.181943,2158.3193};
 					azimut=-4.8891091;
-					id=86;
+					id=70;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
@@ -1516,7 +1248,7 @@ class Mission
 				{
 					position[]={10087.154,9.9989605,2158.5376};
 					azimut=-4.8891091;
-					id=87;
+					id=71;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
@@ -1528,7 +1260,7 @@ class Mission
 				{
 					position[]={10090.461,10.553686,2163.4968};
 					azimut=-4.8891091;
-					id=88;
+					id=72;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
@@ -1540,7 +1272,7 @@ class Mission
 				{
 					position[]={10091.01,9.8969183,2159.4419};
 					azimut=-4.8891091;
-					id=89;
+					id=73;
 					side="WEST";
 					vehicle="CDF_Soldier";
 					player="PLAY CDG";
@@ -1550,7 +1282,7 @@ class Mission
 				};
 			};
 		};
-		class Item32
+		class Item26
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1560,7 +1292,7 @@ class Mission
 				{
 					position[]={-70.18454,635.1048,47.893524};
 					azimut=0.32468101;
-					id=105;
+					id=85;
 					side="LOGIC";
 					vehicle="BattleFieldClearance";
 					leader=1;
@@ -1569,7 +1301,7 @@ class Mission
 				};
 			};
 		};
-		class Item33
+		class Item27
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1579,7 +1311,7 @@ class Mission
 				{
 					position[]={-106.70829,633.72485,50.766846};
 					azimut=0.32468101;
-					id=106;
+					id=86;
 					side="LOGIC";
 					vehicle="AlternativeInjurySimulation";
 					leader=1;
@@ -1588,7 +1320,7 @@ class Mission
 				};
 			};
 		};
-		class Item34
+		class Item28
 		{
 			side="CIV";
 			class Vehicles
@@ -1598,7 +1330,7 @@ class Mission
 				{
 					position[]={9779.0586,82.897034,2407.1704};
 					azimut=-1.0788;
-					id=107;
+					id=87;
 					side="CIV";
 					vehicle="Haris_Press_EP1";
 					player="PLAY CDG";
@@ -1607,11 +1339,11 @@ class Mission
 					skill=0.60000002;
 					init="this addAction [""Start Camera"",""camera.sqs"",[],2,false,true,"""",""driver _target == _this""]; this allowDamage false;";
 					description="Mission Observer (Journalist)";
-					synchronizations[]={107};
+					synchronizations[]={87};
 				};
 			};
 		};
-		class Item35
+		class Item29
 		{
 			side="CIV";
 			class Vehicles
@@ -1621,7 +1353,7 @@ class Mission
 				{
 					position[]={9782.9766,82.529152,2407.0352};
 					azimut=-1.0788;
-					id=108;
+					id=88;
 					side="CIV";
 					vehicle="Citizen3_EP1";
 					player="PLAY CDG";
@@ -1630,169 +1362,126 @@ class Mission
 					skill=0.60000002;
 					init="this addAction [""Start Camera"",""camera.sqs"",[],2,false,true,"""",""driver _target == _this""]; this allowDamage false;";
 					description="Mission Observer (Civilian)";
-					synchronizations[]={108};
+					synchronizations[]={88};
 				};
 			};
 		};
 	};
 	class Vehicles
 	{
-		items=15;
+		items=11;
 		class Item0
-		{
-			position[]={9971.3027,5.1470609,2097.9407};
-			azimut=1.4615065;
-			id=90;
-			side="EMPTY";
-			vehicle="BMP2_CDF";
-			skill=0.5;
-			text="CDF_IFV1";
-			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
-		};
-		class Item1
-		{
-			position[]={10002.982,5.3495541,2097.5754};
-			azimut=1.4615065;
-			id=91;
-			side="EMPTY";
-			vehicle="BMP2_CDF";
-			skill=0.5;
-			text="CDF_IFV2";
-			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
-		};
-		class Item2
-		{
-			position[]={10034.961,5.7046695,2094.9587};
-			azimut=1.4615065;
-			id=92;
-			side="EMPTY";
-			vehicle="BMP2_CDF";
-			skill=0.5;
-			text="CDF_IFV3";
-			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
-		};
-		class Item3
-		{
-			position[]={10054.514,5.9994373,2073.801};
-			azimut=1.4615065;
-			id=93;
-			side="EMPTY";
-			vehicle="T72_CDF";
-			skill=0.5;
-			text="CDF_TNK1";
-		};
-		class Item4
 		{
 			position[]={10074.178,5.9071517,2093.4141};
 			azimut=1.4615065;
-			id=94;
+			id=74;
 			side="EMPTY";
 			vehicle="Mi17_CDF";
 			skill=0.5;
 			text="CDF_TH1";
 		};
-		class Item5
+		class Item1
 		{
 			position[]={10122.318,5.7567987,2093.4856};
 			azimut=1.4615065;
-			id=95;
+			id=75;
 			side="EMPTY";
 			vehicle="Mi24_D";
 			skill=0.5;
 			text="CDF_AH1";
 		};
-		class Item6
+		class Item2
 		{
 			position[]={10100.533,5.7923765,2092.4324};
 			azimut=1.4615065;
-			id=96;
+			id=76;
 			side="EMPTY";
 			vehicle="Mi17_CDF";
 			skill=0.5;
 			text="CDF_TH2";
 		};
-		class Item7
+		class Item3
 		{
 			position[]={9930.5,22.175726,2208.6565};
 			azimut=0.32468101;
-			id=97;
+			id=77;
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.60000002;
 			text="CDF_CAR1";
 			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
-		class Item8
+		class Item4
 		{
 			position[]={9930.8594,19.726433,2193.8328};
 			azimut=0.32468101;
-			id=98;
+			id=78;
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.60000002;
 			text="CDF_CAR2";
 			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
-		class Item9
+		class Item5
 		{
 			position[]={9961.4473,19.616659,2193.2883};
 			azimut=0.32468101;
-			id=99;
+			id=79;
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.60000002;
 			text="CDF_CAR3";
 			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
-		class Item10
+		class Item6
 		{
 			position[]={9993.8945,19.570274,2193.9194};
 			azimut=0.32468101;
-			id=100;
+			id=80;
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.60000002;
 			text="CDF_CAR4";
 			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
-		class Item11
+		class Item7
 		{
 			position[]={10025.742,18.834082,2193.6331};
 			azimut=0.32468101;
-			id=101;
+			id=81;
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.60000002;
 			text="CDF_CAR5";
 			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
-		class Item12
+		class Item8
 		{
 			position[]={9960.2695,15.804116,2170.8521};
 			azimut=0.32468101;
-			id=102;
+			id=82;
 			side="EMPTY";
 			vehicle="UralOpen_CDF";
 			skill=1;
 			text="CDF_TR1";
 			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
 		};
-		class Item13
+		class Item9
 		{
 			position[]={9992.9219,15.853085,2170.6677};
 			azimut=0.32468101;
-			id=103;
+			id=83;
 			side="EMPTY";
 			vehicle="UralOpen_CDF";
 			skill=1;
 			text="CDF_TR2";
 			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
 		};
-		class Item14
+		class Item10
 		{
 			position[]={10024.488,15.635945,2170.0706};
 			azimut=0.32468101;
-			id=104;
+			id=84;
 			side="EMPTY";
 			vehicle="UralOpen_CDF";
 			skill=1;
