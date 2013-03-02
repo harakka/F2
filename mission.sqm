@@ -1388,6 +1388,7 @@ class Mission
 					class Effects
 					{
 					};
+					timeoutMax=60;
 					showWP="NEVER";
 				};
 				class Item1
@@ -2064,6 +2065,9 @@ class Mission
 					class Effects
 					{
 					};
+					timeoutMin=120;
+					timeoutMid=180;
+					timeoutMax=240;
 					showWP="NEVER";
 				};
 				class Item1
@@ -2826,6 +2830,9 @@ class Mission
 					class Effects
 					{
 					};
+					timeoutMin=60;
+					timeoutMid=120;
+					timeoutMax=180;
 					showWP="NEVER";
 				};
 				class Item1
@@ -3299,6 +3306,9 @@ class Mission
 					class Effects
 					{
 					};
+					timeoutMin=30;
+					timeoutMid=120;
+					timeoutMax=240;
 					showWP="NEVER";
 				};
 				class Item1
@@ -3923,7 +3933,7 @@ class Mission
 			vehicle="Mi17_rockets_RU";
 			leader=1;
 			skill=0.57974875;
-			init="this removeWeapon ""57mmLauncher""; this flyinheight 30;";
+			init="this removeMagazinesTurret [""128Rnd_57mm"", [-1]]; this flyinheight 30;";
 		};
 		class Item12
 		{
@@ -3974,7 +3984,7 @@ class Mission
 			vehicle="Mi17_rockets_RU";
 			leader=1;
 			skill=0.57974875;
-			init="this removeWeapon ""57mmLauncher""; this flyinheight 30;";
+			init="this removeMagazinesTurret [""128Rnd_57mm"", [-1]]; this flyinheight 30;";
 		};
 		class Item17
 		{
@@ -3988,13 +3998,13 @@ class Mission
 		class Item18
 		{
 			position[]={13490.563,6.2079768,4458.4536};
-			azimut=195.0238;
+			azimut=195.024;
 			id=135;
 			side="EMPTY";
 			vehicle="Mi17_rockets_RU";
 			leader=1;
 			skill=0.57974875;
-			init="this removeWeapon ""57mmLauncher""; this flyinheight 30;";
+			init="this removeMagazinesTurret [""128Rnd_57mm"", [-1]]; this flyinheight 30;";
 		};
 		class Item19
 		{
@@ -4008,13 +4018,13 @@ class Mission
 		class Item20
 		{
 			position[]={8311.7705,148.9213,5083.4429};
-			azimut=177.58496;
+			azimut=177.58501;
 			id=152;
 			side="EMPTY";
 			vehicle="Mi17_rockets_RU";
 			leader=1;
 			skill=0.57974875;
-			init="this removeWeapon ""57mmLauncher""; this flyinheight 30;";
+			init="this removeMagazinesTurret [""128Rnd_57mm"", [-1]]; this flyinheight 30;";
 		};
 	};
 	class Markers
