@@ -249,8 +249,12 @@ f_viewDistance_default = 3500;
 
 [false] execVM "f\common\f_groupJoinAddOption.sqf";
 
+{_x setMarkerAlpha 0} forEach ["mkr_obj01", "mkr_obj02", "mkr_obj03", "mkr_obj04", "mkr_obj05", "mkr_obj06", "mkr_obj07", "mkr_obj08", "mkr_obj09"];
+{_x setMarkerAlpha 0} forEach ["lz1", "lz2", "lz3", "lz4"];
+{_x setMarkerText ""} forEach ["mkr_obj01", "mkr_obj02", "mkr_obj03", "mkr_obj04", "mkr_obj05", "mkr_obj06", "mkr_obj07", "mkr_obj08", "mkr_obj09"];
+
 waitUntil {scriptDone f_processParamsArray};
-if (f_var_debugMode == 0) then {
-	{_x setMarkerAlpha 0} forEach ["mkr_obj01", "mkr_obj02", "mkr_obj03", "mkr_obj04", "mkr_obj05", "mkr_obj06", "mkr_obj07", "mkr_obj08", "mkr_obj09"];
-	{_x setMarkerAlpha 0} forEach ["lz1", "lz2", "lz3", "lz4"];
+if (f_var_debugMode == 1) then {
+	{_x setMarkerAlpha 1} forEach ["mkr_obj01", "mkr_obj02", "mkr_obj03", "mkr_obj04", "mkr_obj05", "mkr_obj06", "mkr_obj07", "mkr_obj08", "mkr_obj09"];
+	{_x setMarkerAlpha 1} forEach ["lz1", "lz2", "lz3", "lz4"];
 };

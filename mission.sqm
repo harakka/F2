@@ -1300,7 +1300,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={10132.301,31.10927,2889.2334};
+					position[]={10149.722,6.0124531,2054.2129};
 					azimut=-1.0788;
 					id=88;
 					side="CIV";
@@ -1922,7 +1922,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={10170.742,6.000802,2071.4348};
+					position[]={10190.396,5.9998579,2057.7605};
 					placement=1;
 					completitionRadius=1;
 					combatMode="GREEN";
@@ -1936,7 +1936,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={10163.586,6.0086646,2057.1514};
+					position[]={10164.419,6.0071502,2066.6553};
 					placement=1;
 					completitionRadius=1;
 					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
@@ -1947,7 +1947,7 @@ class Mission
 				};
 				class Item4
 				{
-					position[]={10189.629,6.0137124,2064.7893};
+					position[]={10187.463,6.0093083,2072.7927};
 					placement=1;
 					completitionRadius=1;
 					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
@@ -3807,7 +3807,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=55;
+		items=56;
 		class Item0
 		{
 			position[]={4846.5918,339,9683.4326};
@@ -4015,7 +4015,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj06 = true; ""mkr_obj06"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 6 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj06 = true; ""mkr_obj06"" setMarkerAlpha 1; ""mkr_obj06"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 6 destroyed"";}; 1};}];";
 		};
 		class Item20
 		{
@@ -4026,7 +4026,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj06 = true; ""mkr_obj06"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 6 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj06 = true; ""mkr_obj06"" setMarkerAlpha 1; ""mkr_obj06"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 6 destroyed"";}; 1};}];";
 		};
 		class Item21
 		{
@@ -4037,7 +4037,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj06 = true; ""mkr_obj06"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 6 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj06 = true; ""mkr_obj06"" setMarkerAlpha 1; ""mkr_obj06"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 6 destroyed"";}; 1};}];";
 		};
 		class Item22
 		{
@@ -4048,7 +4048,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj04 = true; ""mkr_obj04"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 4 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj04 = true; ""mkr_obj04"" setMarkerAlpha 1; ""mkr_obj04"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 4 destroyed"";}; 1};}];";
 		};
 		class Item23
 		{
@@ -4059,7 +4059,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj04 = true; ""mkr_obj04"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 4 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj04 = true; ""mkr_obj04"" setMarkerAlpha 1; ""mkr_obj04"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 4 destroyed"";}; 1};}];";
 		};
 		class Item24
 		{
@@ -4070,7 +4070,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj04 = true; ""mkr_obj04"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 4 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj04 = true; ""mkr_obj04"" setMarkerAlpha 1; ""mkr_obj04"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 4 destroyed"";}; 1};}];";
 		};
 		class Item25
 		{
@@ -4081,7 +4081,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj04 = true; ""mkr_obj04"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 4 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj04 = true; ""mkr_obj04"" setMarkerAlpha 1; ""mkr_obj04"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 4 destroyed"";}; 1};}];";
 		};
 		class Item26
 		{
@@ -4092,7 +4092,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj03 = true; ""mkr_obj03"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 3 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj03 = true; ""mkr_obj03"" setMarkerAlpha 1; ""mkr_obj03"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 3 destroyed"";}; 1};}];";
 		};
 		class Item27
 		{
@@ -4103,7 +4103,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj03 = true; ""mkr_obj03"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 3 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj03 = true; ""mkr_obj03"" setMarkerAlpha 1; ""mkr_obj03"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 3 destroyed"";}; 1};}];";
 		};
 		class Item28
 		{
@@ -4114,7 +4114,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj03 = true; ""mkr_obj03"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 3 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj03 = true; ""mkr_obj03"" setMarkerAlpha 1; ""mkr_obj03"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 3 destroyed"";}; 1};}];";
 		};
 		class Item29
 		{
@@ -4125,7 +4125,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj03 = true; ""mkr_obj03"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 3 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj03 = true; ""mkr_obj03"" setMarkerAlpha 1; ""mkr_obj03"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 3 destroyed"";}; 1};}];";
 		};
 		class Item30
 		{
@@ -4136,7 +4136,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj02 = true; ""mkr_obj02"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 2 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj02 = true; ""mkr_obj02"" setMarkerAlpha 1; ""mkr_obj02"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 2 destroyed"";}; 1};}];";
 		};
 		class Item31
 		{
@@ -4147,7 +4147,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj02 = true; ""mkr_obj02"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 2 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj02 = true; ""mkr_obj02"" setMarkerAlpha 1; ""mkr_obj02"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 2 destroyed"";}; 1};}];";
 		};
 		class Item32
 		{
@@ -4158,7 +4158,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj02 = true; ""mkr_obj02"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 2 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj02 = true; ""mkr_obj02"" setMarkerAlpha 1; ""mkr_obj02"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 2 destroyed"";}; 1};}];";
 		};
 		class Item33
 		{
@@ -4169,7 +4169,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj02 = true; ""mkr_obj02"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 2 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj02 = true; ""mkr_obj02"" setMarkerAlpha 1; ""mkr_obj02"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 2 destroyed"";}; 1};}];";
 		};
 		class Item34
 		{
@@ -4180,7 +4180,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj01 = true; ""mkr_obj01"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 1 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj01 = true; ""mkr_obj01"" setMarkerAlpha 1; ""mkr_obj01"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 1 destroyed"";}; 1};}];";
 		};
 		class Item35
 		{
@@ -4191,7 +4191,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj01 = true; ""mkr_obj01"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 1 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj01 = true; ""mkr_obj01"" setMarkerAlpha 1; ""mkr_obj01"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 1 destroyed"";}; 1};}];";
 		};
 		class Item36
 		{
@@ -4202,7 +4202,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj01 = true; ""mkr_obj01"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 1 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj01 = true; ""mkr_obj01"" setMarkerAlpha 1; ""mkr_obj01"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 1 destroyed"";}; 1};}];";
 		};
 		class Item37
 		{
@@ -4213,7 +4213,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj01 = true; ""mkr_obj01"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 1 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj01 = true; ""mkr_obj01"" setMarkerAlpha 1; ""mkr_obj01"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 1 destroyed"";}; 1};}];";
 		};
 		class Item38
 		{
@@ -4224,7 +4224,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; ""mkr_obj05"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
 		};
 		class Item39
 		{
@@ -4235,7 +4235,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; ""mkr_obj05"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
 		};
 		class Item40
 		{
@@ -4246,7 +4246,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; ""mkr_obj05"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
 		};
 		class Item41
 		{
@@ -4257,7 +4257,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; ""mkr_obj05"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
 		};
 		class Item42
 		{
@@ -4268,7 +4268,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; ""mkr_obj05"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
 		};
 		class Item43
 		{
@@ -4279,7 +4279,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; ""mkr_obj05"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
 		};
 		class Item44
 		{
@@ -4290,7 +4290,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj07 = true; ""mkr_obj07"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 7 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj07 = true; ""mkr_obj07"" setMarkerAlpha 1; ""mkr_obj07"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 7 destroyed"";}; 1};}];";
 		};
 		class Item45
 		{
@@ -4301,7 +4301,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj07 = true; ""mkr_obj07"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 7 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj07 = true; ""mkr_obj07"" setMarkerAlpha 1; ""mkr_obj07"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 7 destroyed"";}; 1};}];";
 		};
 		class Item46
 		{
@@ -4312,7 +4312,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj07 = true; ""mkr_obj07"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 7 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj07 = true; ""mkr_obj07"" setMarkerAlpha 1; ""mkr_obj07"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 7 destroyed"";}; 1};}];";
 		};
 		class Item47
 		{
@@ -4323,7 +4323,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj07 = true; ""mkr_obj07"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 7 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj07 = true; ""mkr_obj07"" setMarkerAlpha 1; ""mkr_obj07"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 7 destroyed"";}; 1};}];";
 		};
 		class Item48
 		{
@@ -4334,7 +4334,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj08 = true; ""mkr_obj08"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 8 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj08 = true; ""mkr_obj08"" setMarkerAlpha 1; ""mkr_obj08"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 8 destroyed"";}; 1};}];";
 		};
 		class Item49
 		{
@@ -4345,7 +4345,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj08 = true; ""mkr_obj08"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 8 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj08 = true; ""mkr_obj08"" setMarkerAlpha 1; ""mkr_obj08"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 8 destroyed"";}; 1};}];";
 		};
 		class Item50
 		{
@@ -4356,7 +4356,7 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj08 = true; ""mkr_obj08"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 8 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj08 = true; ""mkr_obj08"" setMarkerAlpha 1; ""mkr_obj08"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 8 destroyed"";}; 1};}];";
 		};
 		class Item51
 		{
@@ -4367,29 +4367,29 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj08 = true; ""mkr_obj08"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 8 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj08 = true; ""mkr_obj08"" setMarkerAlpha 1; ""mkr_obj08"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 8 destroyed"";}; 1};}];";
 		};
 		class Item52
 		{
-			position[]={10411.004,5.4370422,2631.1943};
-			azimut=205.55687;
+			position[]={10412.616,6,2613.6421};
+			azimut=113.31133;
 			id=214;
 			side="EMPTY";
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj09 = true; ""mkr_obj09"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 9 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj09 = true; ""mkr_obj09"" setMarkerAlpha 1; ""mkr_obj09"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 9 destroyed"";}; 1};}];";
 		};
 		class Item53
 		{
-			position[]={10460.632,5.3499999,2635.1611};
+			position[]={10447.975,5.3499999,2642.2161};
 			azimut=205.55701;
 			id=215;
 			side="EMPTY";
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj09 = true; ""mkr_obj09"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 9 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj09 = true; ""mkr_obj09"" setMarkerAlpha 1; ""mkr_obj09"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 9 destroyed"";}; 1};}];";
 		};
 		class Item54
 		{
@@ -4400,7 +4400,18 @@ class Mission
 			vehicle="Land_CncBlock";
 			leader=1;
 			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj09 = true; ""mkr_obj09"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 9 destroyed"";}; 1};}];";
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj09 = true; ""mkr_obj09"" setMarkerAlpha 1; ""mkr_obj09"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 9 destroyed"";}; 1};}];";
+		};
+		class Item55
+		{
+			position[]={10419.543,6,2591.8806};
+			azimut=205.73933;
+			id=217;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj09 = true; ""mkr_obj09"" setMarkerAlpha 1; ""mkr_obj09"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 9 destroyed"";}; 1};}];";
 		};
 	};
 	class Markers
