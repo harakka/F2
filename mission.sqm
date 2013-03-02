@@ -4113,28 +4113,28 @@ class Mission
 			position[]={10089.677,-2.5259302,1579.0869};
 			name="lz1";
 			text="LZ1";
-			type="Empty";
+			type="mil_start";
 		};
 		class Item12
 		{
 			position[]={9655.0664,10.185526,1720.3162};
 			name="lz2";
 			text="LZ2";
-			type="Empty";
+			type="mil_start";
 		};
 		class Item13
 		{
-			position[]={10962.195,-8.8346291,2564.6255};
+			position[]={10883.794,6.6013641,2561.2141};
 			name="lz4";
 			text="LZ4";
-			type="Empty";
+			type="mil_start";
 		};
 		class Item14
 		{
 			position[]={9653.2295,118.98648,2563.4985};
 			name="lz3";
 			text="LZ3";
-			type="Empty";
+			type="mil_start";
 		};
 	};
 };
