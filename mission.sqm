@@ -1407,7 +1407,7 @@ class Mission
 					completitionRadius=100;
 					combatMode="BLUE";
 					combat="SAFE";
-					expActiv="this flyinheight 30;";
+					expActiv="this flyinheight 30; if (f_var_debugMode == 1) then {driver this globalchat ""LZ2 pilot lifting off"";};";
 					class Effects
 					{
 					};
@@ -1568,7 +1568,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {hint ""ding""; _x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 3"";};";
 					class Effects
 					{
 					};
@@ -1604,7 +1604,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{this action [""TouchOff"", _x]} forEach thisList;";
+					expActiv="{this action [""TouchOff"", _x]} forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Touching off at Obj 3"";};";
 					class Effects
 					{
 					};
@@ -1693,7 +1693,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={10428.476,5.5610685,2631.2788};
+					position[]={10444.379,5.4305358,2626.3943};
 					class Effects
 					{
 					};
@@ -1707,7 +1707,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {hint ""ding""; _x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 9"";};";
 					class Effects
 					{
 					};
@@ -1738,7 +1738,7 @@ class Mission
 				class Item6
 				{
 					position[]={10488.888,44.856838,2756.1287};
-					expActiv="{this action [""TouchOff"", _x]} forEach thisList;";
+					expActiv="{this action [""TouchOff"", _x]} forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Touching off at Obj 9"";};";
 					class Effects
 					{
 					};
@@ -1831,7 +1831,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 5"";};";
 					class Effects
 					{
 					};
@@ -1867,7 +1867,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{this action [""TouchOff"", _x]} forEach thisList;";
+					expActiv="{this action [""TouchOff"", _x]} forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Touching off at Obj 5"";};";
 					class Effects
 					{
 					};
@@ -1963,7 +1963,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {hint ""ding""; _x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 6"";};";
 					class Effects
 					{
 					};
@@ -1997,7 +1997,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{this action [""TouchOff"", _x]} forEach thisList;";
+					expActiv="{this action [""TouchOff"", _x]} forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Touching off at Obj 6"";};";
 					class Effects
 					{
 					};
@@ -2086,7 +2086,7 @@ class Mission
 					completitionRadius=100;
 					combatMode="BLUE";
 					combat="SAFE";
-					expActiv="this flyinheight 30;";
+					expActiv="this flyinheight 30; if (f_var_debugMode == 1) then {driver this globalchat ""LZ1 pilot lifting off"";};";
 					class Effects
 					{
 					};
@@ -2223,7 +2223,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {hint ""ding""; _x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 4"";};";
 					class Effects
 					{
 					};
@@ -2255,7 +2255,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{this action [""TouchOff"", _x]} forEach thisList;";
+					expActiv="{this action [""TouchOff"", _x]} forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Touching off at Obj 4"";};";
 					class Effects
 					{
 					};
@@ -2344,7 +2344,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={10318.732,9.6331577,2238.5759};
+					position[]={10339.306,6.4219365,2242.7734};
 					class Effects
 					{
 					};
@@ -2356,7 +2356,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {hint ""ding""; _x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 7"";};";
 					class Effects
 					{
 					};
@@ -2383,7 +2383,7 @@ class Mission
 				class Item5
 				{
 					position[]={10138.964,13.160578,2213.6121};
-					expActiv="{this action [""TouchOff"", _x]} forEach thisList;";
+					expActiv="{this action [""TouchOff"", _x]} forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Touching off at Obj 7"";};";
 					class Effects
 					{
 					};
@@ -2476,7 +2476,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 2"";};";
 					class Effects
 					{
 					};
@@ -2508,7 +2508,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{this action [""TouchOff"", _x]} forEach thisList;";
+					expActiv="{this action [""TouchOff"", _x]} forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Touching off at Obj 2"";};";
 					class Effects
 					{
 					};
@@ -2609,13 +2609,13 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={10351.862,6.0127869,1658.3888};
+					position[]={10353.525,6.0127869,1656.9625};
 					placement=1;
 					completitionRadius=1;
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {hint ""ding""; _x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 1"";};";
 					class Effects
 					{
 					};
@@ -2635,7 +2635,7 @@ class Mission
 				};
 				class Item4
 				{
-					position[]={10348.86,6.0127869,1653.9828};
+					position[]={10349.114,6.0127869,1651.953};
 					placement=1;
 					completitionRadius=1;
 					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
@@ -2646,11 +2646,11 @@ class Mission
 				};
 				class Item5
 				{
-					position[]={10252.729,6.0127869,1602.7932};
+					position[]={10170.775,1.8602748,1589.7296};
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{this action [""TouchOff"", _x]} forEach thisList;";
+					expActiv="{this action [""TouchOff"", _x]} forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Touching off at Obj 1"";};";
 					class Effects
 					{
 					};
@@ -2851,7 +2851,7 @@ class Mission
 					completitionRadius=100;
 					combatMode="BLUE";
 					combat="SAFE";
-					expActiv="this flyinheight 30;";
+					expActiv="this flyinheight 30; if (f_var_debugMode == 1) then {driver this globalchat ""LZ4 pilot lifting off"";};";
 					class Effects
 					{
 					};
@@ -2889,7 +2889,6 @@ class Mission
 					combatMode="YELLOW";
 					speed="NORMAL";
 					combat="AWARE";
-					expActiv="hint ""testing this waypoint shit"";";
 					class Effects
 					{
 					};
@@ -3175,7 +3174,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {hint ""ding""; _x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 8"";};";
 					class Effects
 					{
 					};
@@ -3210,7 +3209,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{this action [""TouchOff"", _x]} forEach thisList;";
+					expActiv="{this action [""TouchOff"", _x]} forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Touching off at Obj 8"";};";
 					class Effects
 					{
 					};
@@ -3327,7 +3326,7 @@ class Mission
 					completitionRadius=100;
 					combatMode="BLUE";
 					combat="SAFE";
-					expActiv="this flyinheight 30;";
+					expActiv="this flyinheight 30; if (f_var_debugMode == 1) then {driver this globalchat ""LZ3 pilot lifting off"";};";
 					class Effects
 					{
 					};
