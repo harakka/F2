@@ -4,50 +4,15 @@ class Mission
 	addOns[]=
 	{
 		"cacharacters_e",
-		"takistan",
 		"ca_modules_functions",
+		"cacharacters2",
 		"ca_missions_battlefieldclearance",
 		"ca_missions_alternativeinjurysimulation",
-		"CACharacters_BAF",
-		"cawheeled_e_stryker",
-		"CATracked_E",
-		"caair_e_ch_47f",
-		"CAAir_E_AH64D",
-		"CATracked_BAF",
-		"CAAir_BAF",
-		"catracked_e_t55",
-		"caair_e_mi8",
-		"CAAir_E",
-		"cacharacters_pmc",
-		"CATracked",
-		"CAAir_E_UH1H_EP1",
-		"caair_pmc_ka60",
-		"CATracked_E_M2A2_Bradley",
-		"CAAir_E_UH60M",
-		"cacharacters2",
-		"CATracked2_BMP3",
 		"caair",
 		"CAAir2",
-		"CAWheeled2_LAV25",
-		"CA_AH64D",
-		"cawheeled_e_brdm2",
 		"CAWheeled",
-		"CAWheeled_E",
-		"cawheeled_e_v3s",
-		"cawheeled_e_btr40",
-		"cawheeled_d_baf",
-		"caweapons_baf",
-		"CAWheeled2_V3S",
-		"CAWheeled2_MTVR",
-		"CAWheeled2_Kamaz",
-		"chernarus",
-		"caweapons",
-		"caweapons_ammoboxes",
-		"caweapons_e_ammoboxes",
 		"camisc3",
-		"castructures_e_misc_misc_interier",
-		"camisc_e",
-		"castructures_e_misc_misc_market"
+		"chernarus"
 	};
 	addOnsAuto[]=
 	{
@@ -77,7 +42,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=60;
+		items=62;
 		class Item0
 		{
 			side="WEST";
@@ -1532,7 +1497,7 @@ class Mission
 				{
 					position[]={4874.582,9,2433.2117};
 					azimut=-100.01037;
-					id=179;
+					id=177;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -1797,7 +1762,7 @@ class Mission
 				{
 					position[]={4874.3657,8.9790344,2439.7063};
 					azimut=-100.01037;
-					id=180;
+					id=178;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -2036,23 +2001,23 @@ class Mission
 				{
 					position[]={5220.1182,9.0015812,2229.9817};
 					azimut=-143.131;
-					id=110;
+					id=108;
 					side="EAST";
 					vehicle="RU_Soldier_Pilot";
 					leader=1;
 					rank="SERGEANT";
 					skill=1;
-					synchronizations[]={110};
+					synchronizations[]={108};
 				};
 				class Item1
 				{
 					position[]={5221.6943,9.0225954,2228.3352};
 					azimut=-143.131;
-					id=119;
+					id=117;
 					side="EAST";
 					vehicle="RU_Soldier_Pilot";
 					skill=1;
-					synchronizations[]={119};
+					synchronizations[]={117};
 				};
 			};
 			class Waypoints
@@ -2158,7 +2123,7 @@ class Mission
 				{
 					position[]={4867.7314,8.9086361,2451.6206};
 					azimut=-100.01037;
-					id=112;
+					id=110;
 					side="EAST";
 					vehicle="RUS_Soldier_TL";
 					leader=1;
@@ -2169,7 +2134,7 @@ class Mission
 				{
 					position[]={4870.6572,8.8999996,2451.4839};
 					azimut=-100.01;
-					id=114;
+					id=112;
 					side="EAST";
 					vehicle="RUS_Soldier_Sab";
 					rank="CORPORAL";
@@ -2179,7 +2144,7 @@ class Mission
 				{
 					position[]={4870.6826,8.8999996,2450.728};
 					azimut=-100.01037;
-					id=113;
+					id=111;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -2189,7 +2154,7 @@ class Mission
 				{
 					position[]={4870.6826,8.8999996,2449.7539};
 					azimut=-100.01037;
-					id=178;
+					id=176;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -2291,7 +2256,7 @@ class Mission
 				{
 					position[]={8346.6777,147.35739,5088.1646};
 					azimut=-121.02389;
-					id=115;
+					id=113;
 					side="EAST";
 					vehicle="RUS_Soldier_TL";
 					leader=1;
@@ -2302,7 +2267,7 @@ class Mission
 				{
 					position[]={8349.4561,147.5472,5089.0869};
 					azimut=-121.02352;
-					id=117;
+					id=115;
 					side="EAST";
 					vehicle="RUS_Soldier_Sab";
 					rank="CORPORAL";
@@ -2312,7 +2277,7 @@ class Mission
 				{
 					position[]={8349.752,147.55948,5088.3882};
 					azimut=-121.02389;
-					id=116;
+					id=114;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -2322,7 +2287,7 @@ class Mission
 				{
 					position[]={8350.0576,147.56699,5087.4209};
 					azimut=-121.02389;
-					id=118;
+					id=116;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -2411,7 +2376,7 @@ class Mission
 				{
 					position[]={5249.5693,9.1045904,2222.761};
 					azimut=-100.01037;
-					id=120;
+					id=118;
 					side="EAST";
 					vehicle="RUS_Soldier_TL";
 					leader=1;
@@ -2422,7 +2387,7 @@ class Mission
 				{
 					position[]={5252.4951,9.0667295,2222.6262};
 					azimut=-100.01;
-					id=122;
+					id=120;
 					side="EAST";
 					vehicle="RUS_Soldier_Sab";
 					rank="CORPORAL";
@@ -2432,7 +2397,7 @@ class Mission
 				{
 					position[]={5252.5205,9.0663881,2221.8706};
 					azimut=-100.01037;
-					id=121;
+					id=119;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -2442,7 +2407,7 @@ class Mission
 				{
 					position[]={5252.3867,9.0681763,2220.9331};
 					azimut=-100.01037;
-					id=177;
+					id=175;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -2548,7 +2513,7 @@ class Mission
 				{
 					position[]={5249.9609,8.9408016,2239.5176};
 					azimut=-134.48616;
-					id=123;
+					id=121;
 					side="EAST";
 					vehicle="RUS_Soldier_TL";
 					leader=1;
@@ -2559,7 +2524,7 @@ class Mission
 				{
 					position[]={5252.4526,8.8036585,2241.0637};
 					azimut=-134.48579;
-					id=125;
+					id=123;
 					side="EAST";
 					vehicle="RUS_Soldier_Sab";
 					rank="CORPORAL";
@@ -2569,7 +2534,7 @@ class Mission
 				{
 					position[]={5252.9023,8.7942829,2240.4543};
 					azimut=-134.48616;
-					id=124;
+					id=122;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -2579,7 +2544,7 @@ class Mission
 				{
 					position[]={5253.4248,8.787344,2239.5828};
 					azimut=-134.48616;
-					id=126;
+					id=124;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -2687,7 +2652,7 @@ class Mission
 				{
 					position[]={10329.011,6.0170765,1640.8182};
 					special="NONE";
-					id=127;
+					id=125;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -2706,7 +2671,7 @@ class Mission
 				{
 					position[]={10347.639,6.0127869,1640.5848};
 					special="NONE";
-					id=128;
+					id=126;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -2725,7 +2690,7 @@ class Mission
 				{
 					position[]={10349.601,16.012819,1630.1863};
 					special="NONE";
-					id=129;
+					id=127;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -2744,7 +2709,7 @@ class Mission
 				{
 					position[]={10333.375,6.0127869,1629.0885};
 					special="NONE";
-					id=130;
+					id=128;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -2763,7 +2728,7 @@ class Mission
 				{
 					position[]={10340.339,6,1818.3243};
 					special="NONE";
-					id=131;
+					id=129;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -2782,7 +2747,7 @@ class Mission
 				{
 					position[]={10340.787,6,1808.0494};
 					special="NONE";
-					id=132;
+					id=130;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -2801,23 +2766,23 @@ class Mission
 				{
 					position[]={13496.722,6.2089629,4454.2222};
 					azimut=-68.971169;
-					id=134;
+					id=132;
 					side="EAST";
 					vehicle="RU_Soldier_Pilot";
 					leader=1;
 					rank="SERGEANT";
 					skill=1;
-					synchronizations[]={134};
+					synchronizations[]={132};
 				};
 				class Item1
 				{
 					position[]={13495.572,6.2063365,4452.2524};
 					azimut=-68.971169;
-					id=140;
+					id=138;
 					side="EAST";
 					vehicle="RU_Soldier_Pilot";
 					skill=1;
-					synchronizations[]={140};
+					synchronizations[]={138};
 				};
 			};
 			class Waypoints
@@ -2939,7 +2904,7 @@ class Mission
 				{
 					position[]={13491.716,6.1101933,4422.1855};
 					azimut=-25.850506;
-					id=136;
+					id=134;
 					side="EAST";
 					vehicle="RUS_Soldier_TL";
 					leader=1;
@@ -2950,7 +2915,7 @@ class Mission
 				{
 					position[]={13491.664,6.0895705,4419.1025};
 					azimut=-25.8505;
-					id=137;
+					id=135;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -2960,7 +2925,7 @@ class Mission
 				{
 					position[]={13490.75,6.0867829,4418.8672};
 					azimut=-15.8866;
-					id=138;
+					id=136;
 					side="EAST";
 					vehicle="RUS_Soldier_Marksman";
 					rank="CORPORAL";
@@ -2970,7 +2935,7 @@ class Mission
 				{
 					position[]={13492.385,6.0920849,4419.3354};
 					azimut=-25.8501;
-					id=139;
+					id=137;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3024,7 +2989,7 @@ class Mission
 				{
 					position[]={13497.817,6.1298919,4423.9199};
 					azimut=-25.850506;
-					id=141;
+					id=139;
 					side="EAST";
 					vehicle="RUS_Soldier_TL";
 					leader=1;
@@ -3035,7 +3000,7 @@ class Mission
 				{
 					position[]={13497.77,6.109272,4420.8364};
 					azimut=-25.8505;
-					id=142;
+					id=140;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3045,7 +3010,7 @@ class Mission
 				{
 					position[]={13496.847,6.1064668,4420.6001};
 					azimut=-15.8866;
-					id=143;
+					id=141;
 					side="EAST";
 					vehicle="RUS_Soldier_Marksman";
 					rank="CORPORAL";
@@ -3055,7 +3020,7 @@ class Mission
 				{
 					position[]={13499.386,6.1142678,4421.2627};
 					azimut=-25.8501;
-					id=156;
+					id=154;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3107,7 +3072,7 @@ class Mission
 				{
 					position[]={13530.964,4.8404303,4442.3018};
 					azimut=-92.82534;
-					id=144;
+					id=142;
 					side="EAST";
 					vehicle="RUS_Soldier_TL";
 					leader=1;
@@ -3118,7 +3083,7 @@ class Mission
 				{
 					position[]={13533.851,4.5830503,4441.7988};
 					azimut=-92.824974;
-					id=146;
+					id=144;
 					side="EAST";
 					vehicle="RUS_Soldier_Sab";
 					rank="CORPORAL";
@@ -3128,7 +3093,7 @@ class Mission
 				{
 					position[]={13533.778,4.5843978,4441.0464};
 					azimut=-92.82534;
-					id=145;
+					id=143;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3138,7 +3103,7 @@ class Mission
 				{
 					position[]={13533.594,4.5940256,4440.0493};
 					azimut=-92.82534;
-					id=147;
+					id=145;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3168,7 +3133,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={10475.044,6,2340.9077};
+					position[]={10476.481,6,2339.7029};
 					placement=1;
 					completitionRadius=1;
 					combatMode="GREEN";
@@ -3238,7 +3203,7 @@ class Mission
 				{
 					position[]={10258.842,17.027607,2249.2803};
 					special="NONE";
-					id=148;
+					id=146;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -3257,7 +3222,7 @@ class Mission
 				{
 					position[]={10269.046,15.446107,2244.9792};
 					special="NONE";
-					id=149;
+					id=147;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -3276,23 +3241,23 @@ class Mission
 				{
 					position[]={8318.918,148.3222,5081.2515};
 					azimut=-86.410034;
-					id=151;
+					id=149;
 					side="EAST";
 					vehicle="RU_Soldier_Pilot";
 					leader=1;
 					rank="SERGEANT";
 					skill=1;
-					synchronizations[]={151};
+					synchronizations[]={149};
 				};
 				class Item1
 				{
 					position[]={8318.4063,148.51234,5079.0298};
 					azimut=-86.410034;
-					id=153;
+					id=151;
 					side="EAST";
 					vehicle="RU_Soldier_Pilot";
 					skill=1;
-					synchronizations[]={153};
+					synchronizations[]={151};
 				};
 			};
 			class Waypoints
@@ -3406,7 +3371,7 @@ class Mission
 				{
 					position[]={10373.99,5.972178,2209.9138};
 					special="NONE";
-					id=154;
+					id=152;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -3425,7 +3390,7 @@ class Mission
 				{
 					position[]={10262.351,17.050486,2258.6021};
 					special="NONE";
-					id=155;
+					id=153;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
@@ -3444,7 +3409,7 @@ class Mission
 				{
 					position[]={8347.4932,145.9202,5052.6777};
 					azimut=-50.554241;
-					id=157;
+					id=155;
 					side="EAST";
 					vehicle="RUS_Soldier_TL";
 					leader=1;
@@ -3455,7 +3420,7 @@ class Mission
 				{
 					position[]={8348.7334,145.71751,5049.856};
 					azimut=-50.554241;
-					id=158;
+					id=156;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3465,7 +3430,7 @@ class Mission
 				{
 					position[]={8348,145.71063,5049.2617};
 					azimut=-40.590328;
-					id=159;
+					id=157;
 					side="EAST";
 					vehicle="RUS_Soldier_Marksman";
 					rank="CORPORAL";
@@ -3475,7 +3440,7 @@ class Mission
 				{
 					position[]={8349.293,145.72592,5050.3657};
 					azimut=-50.553844;
-					id=160;
+					id=158;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3525,7 +3490,7 @@ class Mission
 				{
 					position[]={8338.0361,147.69157,5044.5342};
 					azimut=-25.850506;
-					id=161;
+					id=159;
 					side="EAST";
 					vehicle="RUS_Soldier_TL";
 					leader=1;
@@ -3536,7 +3501,7 @@ class Mission
 				{
 					position[]={8337.9844,147.73021,5041.4512};
 					azimut=-25.8505;
-					id=162;
+					id=160;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3546,7 +3511,7 @@ class Mission
 				{
 					position[]={8337.0703,147.83516,5041.2158};
 					azimut=-15.8866;
-					id=163;
+					id=161;
 					side="EAST";
 					vehicle="RUS_Soldier_Marksman";
 					rank="CORPORAL";
@@ -3556,7 +3521,7 @@ class Mission
 				{
 					position[]={8338.7051,147.64702,5041.6841};
 					azimut=-25.8501;
-					id=164;
+					id=162;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3606,7 +3571,7 @@ class Mission
 				{
 					position[]={4850.0342,8.9578581,2471.8394};
 					azimut=-171.53088;
-					id=165;
+					id=163;
 					side="EAST";
 					vehicle="RUS_Soldier_TL";
 					leader=1;
@@ -3617,7 +3582,7 @@ class Mission
 				{
 					position[]={4851.814,8.9914274,2474.3569};
 					azimut=-171.53088;
-					id=166;
+					id=164;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3627,7 +3592,7 @@ class Mission
 				{
 					position[]={4852.7007,8.9898291,2474.0361};
 					azimut=-161.56699;
-					id=167;
+					id=165;
 					side="EAST";
 					vehicle="RUS_Soldier_Marksman";
 					rank="CORPORAL";
@@ -3637,7 +3602,7 @@ class Mission
 				{
 					position[]={4851.0874,8.9942808,2474.571};
 					azimut=-171.53049;
-					id=168;
+					id=166;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3687,7 +3652,7 @@ class Mission
 				{
 					position[]={5240.833,9.0502987,2245.197};
 					azimut=-154.82143;
-					id=169;
+					id=167;
 					side="EAST";
 					vehicle="RUS_Soldier_TL";
 					leader=1;
@@ -3698,7 +3663,7 @@ class Mission
 				{
 					position[]={5243.2637,8.9570494,2247.0964};
 					azimut=-154.82143;
-					id=170;
+					id=168;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3708,7 +3673,7 @@ class Mission
 				{
 					position[]={5244.02,8.9518671,2246.5347};
 					azimut=-144.85753;
-					id=171;
+					id=169;
 					side="EAST";
 					vehicle="RUS_Soldier_Marksman";
 					rank="CORPORAL";
@@ -3718,7 +3683,7 @@ class Mission
 				{
 					position[]={5242.6279,8.9629517,2247.511};
 					azimut=-154.82103;
-					id=172;
+					id=170;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3749,7 +3714,7 @@ class Mission
 				{
 					position[]={5232.6934,9,2250.0039};
 					azimut=-154.82143;
-					id=173;
+					id=171;
 					side="EAST";
 					vehicle="RUS_Soldier_TL";
 					leader=1;
@@ -3760,7 +3725,7 @@ class Mission
 				{
 					position[]={5235.1221,8.9729919,2251.9033};
 					azimut=-154.82143;
-					id=174;
+					id=172;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3770,7 +3735,7 @@ class Mission
 				{
 					position[]={5235.8784,8.9703979,2251.3411};
 					azimut=-144.85753;
-					id=175;
+					id=173;
 					side="EAST";
 					vehicle="RUS_Soldier_Marksman";
 					rank="CORPORAL";
@@ -3780,7 +3745,7 @@ class Mission
 				{
 					position[]={5234.4883,8.9759216,2252.3171};
 					azimut=-154.82103;
-					id=176;
+					id=174;
 					side="EAST";
 					vehicle="RUS_Soldier1";
 					rank="CORPORAL";
@@ -3801,10 +3766,48 @@ class Mission
 				};
 			};
 		};
+		class Item60
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9511.9043,5.4522505,2012.6891};
+					special="NONE";
+					id=199;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.2;
+					init="getposATL this nearestObject 360342 setDamage 1";
+				};
+			};
+		};
+		class Item61
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9511.5996,5.4831653,2017.0121};
+					special="NONE";
+					id=200;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.2;
+					init="getposATL this nearestObject 360328 setDamage 1";
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
-		items=21;
+		items=55;
 		class Item0
 		{
 			position[]={4846.5918,339,9683.4326};
@@ -3945,40 +3948,38 @@ class Mission
 		};
 		class Item13
 		{
-			position[]={10173.803,5.9998579,2063.002};
-			azimut=-13.73;
+			position[]={10099.77,6.0127869,1613.1016};
+			azimut=75.843178;
 			id=107;
 			side="EMPTY";
-			vehicle="Land_CncBlock";
-			leader=1;
-			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {player globalchat ""concrete barrier""; 1};}];";
+			vehicle="HeliHEmpty";
+			skill=0.60000002;
 		};
 		class Item14
 		{
-			position[]={10180.626,5.9998579,2050.0122};
-			azimut=-13.73;
-			id=108;
+			position[]={5214.3643,9,2225.2083};
+			azimut=120.864;
+			id=109;
 			side="EMPTY";
-			vehicle="Land_CncBlock";
+			vehicle="Mi17_rockets_RU";
 			leader=1;
-			skill=0.2;
-			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {player globalchat ""concrete barrier""; 1};}];";
+			skill=0.57974875;
+			init="this removeMagazinesTurret [""128Rnd_57mm"", [-1]]; this flyinheight 30;";
 		};
 		class Item15
 		{
-			position[]={10099.77,6.0127869,1613.1016};
-			azimut=75.843178;
-			id=109;
+			position[]={10887.948,6.9543099,2576.1462};
+			azimut=200.17;
+			id=131;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
 			skill=0.60000002;
 		};
 		class Item16
 		{
-			position[]={5214.3643,9,2225.2083};
-			azimut=120.864;
-			id=111;
+			position[]={13490.563,6.2079768,4458.4536};
+			azimut=195.024;
+			id=133;
 			side="EMPTY";
 			vehicle="Mi17_rockets_RU";
 			leader=1;
@@ -3987,18 +3988,18 @@ class Mission
 		};
 		class Item17
 		{
-			position[]={10887.948,6.9543099,2576.1462};
-			azimut=200.17;
-			id=133;
+			position[]={9628.4492,124.09949,2561.9131};
+			azimut=182.74257;
+			id=148;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
 			skill=0.60000002;
 		};
 		class Item18
 		{
-			position[]={13490.563,6.2079768,4458.4536};
-			azimut=195.024;
-			id=135;
+			position[]={8311.7705,148.9213,5083.4429};
+			azimut=177.58501;
+			id=150;
 			side="EMPTY";
 			vehicle="Mi17_rockets_RU";
 			leader=1;
@@ -4007,23 +4008,399 @@ class Mission
 		};
 		class Item19
 		{
-			position[]={9628.4492,124.09949,2561.9131};
-			azimut=182.74257;
-			id=150;
+			position[]={10158.337,5.9998579,2087.5186};
+			azimut=-13.73;
+			id=179;
 			side="EMPTY";
-			vehicle="HeliHEmpty";
-			skill=0.60000002;
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj06 = true; ""mkr_obj06"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 6 destroyed"";}; 1};}];";
 		};
 		class Item20
 		{
-			position[]={8311.7705,148.9213,5083.4429};
-			azimut=177.58501;
-			id=152;
+			position[]={10173.644,5.9998579,2062.8838};
+			azimut=-13.73;
+			id=180;
 			side="EMPTY";
-			vehicle="Mi17_rockets_RU";
+			vehicle="Land_CncBlock";
 			leader=1;
-			skill=0.57974875;
-			init="this removeMagazinesTurret [""128Rnd_57mm"", [-1]]; this flyinheight 30;";
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj06 = true; ""mkr_obj06"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 6 destroyed"";}; 1};}];";
+		};
+		class Item21
+		{
+			position[]={10180.694,5.9998579,2049.9609};
+			azimut=-13.73;
+			id=181;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj06 = true; ""mkr_obj06"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 6 destroyed"";}; 1};}];";
+		};
+		class Item22
+		{
+			position[]={10131.941,6.0130215,1960.4059};
+			azimut=-8.1063805;
+			id=182;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj04 = true; ""mkr_obj04"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 4 destroyed"";}; 1};}];";
+		};
+		class Item23
+		{
+			position[]={10141.499,6,1913.0007};
+			azimut=82.982742;
+			id=183;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj04 = true; ""mkr_obj04"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 4 destroyed"";}; 1};}];";
+		};
+		class Item24
+		{
+			position[]={10162.241,5.9998579,1969.3982};
+			azimut=6.0142713;
+			id=184;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj04 = true; ""mkr_obj04"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 4 destroyed"";}; 1};}];";
+		};
+		class Item25
+		{
+			position[]={10173.157,6.0127869,1944.2778};
+			azimut=98.649101;
+			id=185;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj04 = true; ""mkr_obj04"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 4 destroyed"";}; 1};}];";
+		};
+		class Item26
+		{
+			position[]={10052.455,6.1019988,1828.4105};
+			azimut=-0.32476816;
+			id=186;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj03 = true; ""mkr_obj03"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 3 destroyed"";}; 1};}];";
+		};
+		class Item27
+		{
+			position[]={10039.368,6.0996332,1819.6288};
+			azimut=-90.565422;
+			id=187;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj03 = true; ""mkr_obj03"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 3 destroyed"";}; 1};}];";
+		};
+		class Item28
+		{
+			position[]={10031.665,11.493685,1802.6018};
+			azimut=-0.0023114099;
+			id=188;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj03 = true; ""mkr_obj03"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 3 destroyed"";}; 1};}];";
+		};
+		class Item29
+		{
+			position[]={10038.291,6.1019988,1853.4153};
+			azimut=88.269249;
+			id=189;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj03 = true; ""mkr_obj03"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 3 destroyed"";}; 1};}];";
+		};
+		class Item30
+		{
+			position[]={10311.795,6,1799.272};
+			azimut=-0.32476801;
+			id=190;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj02 = true; ""mkr_obj02"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 2 destroyed"";}; 1};}];";
+		};
+		class Item31
+		{
+			position[]={10311.351,6,1839.4518};
+			azimut=-0.32476801;
+			id=191;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj02 = true; ""mkr_obj02"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 2 destroyed"";}; 1};}];";
+		};
+		class Item32
+		{
+			position[]={10331.732,6,1823.1031};
+			azimut=267.97012;
+			id=192;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj02 = true; ""mkr_obj02"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 2 destroyed"";}; 1};}];";
+		};
+		class Item33
+		{
+			position[]={10291.353,6,1817.5304};
+			azimut=89.437424;
+			id=193;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj02 = true; ""mkr_obj02"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 2 destroyed"";}; 1};}];";
+		};
+		class Item34
+		{
+			position[]={10354.357,6.0127869,1653.0585};
+			azimut=-53.252316;
+			id=194;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj01 = true; ""mkr_obj01"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 1 destroyed"";}; 1};}];";
+		};
+		class Item35
+		{
+			position[]={10349.942,6.0127869,1637.6411};
+			azimut=38.951317;
+			id=195;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj01 = true; ""mkr_obj01"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 1 destroyed"";}; 1};}];";
+		};
+		class Item36
+		{
+			position[]={10335.304,6.0127869,1626.9814};
+			azimut=36.956593;
+			id=196;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj01 = true; ""mkr_obj01"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 1 destroyed"";}; 1};}];";
+		};
+		class Item37
+		{
+			position[]={10333.482,6.0127869,1644.0607};
+			azimut=-53.252316;
+			id=197;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj01 = true; ""mkr_obj01"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 1 destroyed"";}; 1};}];";
+		};
+		class Item38
+		{
+			position[]={9520.7305,5.5717087,2022.7338};
+			azimut=-0.54900002;
+			id=198;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
+		};
+		class Item39
+		{
+			position[]={9517.4473,5.5305123,2020.2227};
+			azimut=-85.225685;
+			id=201;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
+		};
+		class Item40
+		{
+			position[]={9531.043,5.5130463,2010.9783};
+			azimut=-0.54900002;
+			id=202;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
+		};
+		class Item41
+		{
+			position[]={9495.4863,5.6567779,1998.2416};
+			azimut=-173.99287;
+			id=203;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
+		};
+		class Item42
+		{
+			position[]={9491.9375,5.4966736,2019.4598};
+			azimut=-263.98654;
+			id=204;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
+		};
+		class Item43
+		{
+			position[]={9531.5547,5.8569884,1985.8353};
+			azimut=-82.008713;
+			id=205;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj05 = true; ""mkr_obj05"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 5 destroyed"";}; 1};}];";
+		};
+		class Item44
+		{
+			position[]={10379.068,5.8949604,2220.1423};
+			azimut=-56.1455;
+			id=206;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj07 = true; ""mkr_obj07"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 7 destroyed"";}; 1};}];";
+		};
+		class Item45
+		{
+			position[]={10349.373,5.8264384,2237.1897};
+			azimut=-145.27815;
+			id=207;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj07 = true; ""mkr_obj07"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 7 destroyed"";}; 1};}];";
+		};
+		class Item46
+		{
+			position[]={10345.267,5.8264384,2252.9329};
+			azimut=-56.1455;
+			id=208;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj07 = true; ""mkr_obj07"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 7 destroyed"";}; 1};}];";
+		};
+		class Item47
+		{
+			position[]={10321.041,9.3512115,2225.9258};
+			azimut=-145.02771;
+			id=209;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj07 = true; ""mkr_obj07"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 7 destroyed"";}; 1};}];";
+		};
+		class Item48
+		{
+			position[]={10499.66,6,2358.7715};
+			azimut=-32.638;
+			id=210;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj08 = true; ""mkr_obj08"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 8 destroyed"";}; 1};}];";
+		};
+		class Item49
+		{
+			position[]={10474.358,6,2341.5605};
+			azimut=148.90601;
+			id=211;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj08 = true; ""mkr_obj08"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 8 destroyed"";}; 1};}];";
+		};
+		class Item50
+		{
+			position[]={10469.926,6,2362.886};
+			azimut=148.90601;
+			id=212;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj08 = true; ""mkr_obj08"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 8 destroyed"";}; 1};}];";
+		};
+		class Item51
+		{
+			position[]={10496.651,8.8610544,2336.2112};
+			azimut=220.31737;
+			id=213;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj08 = true; ""mkr_obj08"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 8 destroyed"";}; 1};}];";
+		};
+		class Item52
+		{
+			position[]={10411.004,5.4370422,2631.1943};
+			azimut=205.55687;
+			id=214;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj09 = true; ""mkr_obj09"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 9 destroyed"";}; 1};}];";
+		};
+		class Item53
+		{
+			position[]={10460.632,5.3499999,2635.1611};
+			azimut=205.55701;
+			id=215;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj09 = true; ""mkr_obj09"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 9 destroyed"";}; 1};}];";
+		};
+		class Item54
+		{
+			position[]={10451.1,6,2613.283};
+			azimut=205.55701;
+			id=216;
+			side="EMPTY";
+			vehicle="Land_CncBlock";
+			leader=1;
+			skill=0.2;
+			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj09 = true; ""mkr_obj09"" setMarkerAlpha 1; if (f_var_debugMode == 1) then {this globalchat ""Obj 9 destroyed"";}; 1};}];";
 		};
 	};
 	class Markers
