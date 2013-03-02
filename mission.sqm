@@ -30,7 +30,7 @@ class Mission
 	randomSeed=3165154;
 	class Intel
 	{
-		briefingName="faco_co666_raining_men_v1";
+		briefingName="faco_co666_raining_men_v2";
 		briefingDescription="*** Insert mission description here. ***";
 		startWeather=0.25;
 		forecastWeather=0.25;

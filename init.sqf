@@ -119,11 +119,11 @@ player setVariable ["BIS_noCoreConversations", true];
 // F2 - Dynamic View Distance 
 // Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
 
-f_viewDistance_default = 3500;
+//f_viewDistance_default = 3500;
 // f_viewDistance_tank = 2000;
 // f_viewDistance_rotaryWing = 2500;
 // f_viewDistance_fixedWing = 5000;
-[] execVM "f\common\f_addSetViewDistanceEHs.sqf";
+//[] execVM "f\common\f_addSetViewDistanceEHs.sqf";
 
 // ====================================================================================
 
