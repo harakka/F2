@@ -4007,8 +4007,8 @@ class Mission
 		};
 		class Item19
 		{
-			position[]={9653.1465,118.58155,2548.0601};
-			azimut=155;
+			position[]={9628.4492,124.09949,2561.9131};
+			azimut=182.74257;
 			id=150;
 			side="EMPTY";
 			vehicle="HeliHEmpty";
