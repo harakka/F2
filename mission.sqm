@@ -1388,7 +1388,8 @@ class Mission
 				};
 				class Item4
 				{
-					position[]={9563.4258,14.67048,1786.6917};
+					position[]={9589.4258,17.14636,1784.8232};
+					id=106;
 					type="TR UNLOAD";
 					speed="NORMAL";
 					class Effects
@@ -2067,7 +2068,8 @@ class Mission
 				};
 				class Item4
 				{
-					position[]={10010.661,0.2177138,1603.9441};
+					position[]={10099.77,6.0127869,1613.1016};
+					id=107;
 					type="TR UNLOAD";
 					speed="NORMAL";
 					class Effects
@@ -3939,7 +3941,7 @@ class Mission
 		};
 		class Item12
 		{
-			position[]={9665.4756,16.186853,1759.0109};
+			position[]={9589.4258,17.14636,1784.8232};
 			azimut=117.54849;
 			id=106;
 			side="EMPTY";
