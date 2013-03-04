@@ -249,6 +249,11 @@ player setVariable ["BIS_noCoreConversations", true];
 
 [false] execVM "f\common\f_groupJoinAddOption.sqf";
 
+// ====================================================================================
+// Custom stuff
+
+// Hide markers unless in debug mode. Need to hide first and then re-enable later, if
+// we waitUntil for f_processParamsArray first, the markers will be briefly visible
 {_x setMarkerAlpha 0} forEach ["mkr_obj01", "mkr_obj02", "mkr_obj03", "mkr_obj04", "mkr_obj05", "mkr_obj06", "mkr_obj07", "mkr_obj08", "mkr_obj09"];
 {_x setMarkerAlpha 0} forEach ["lz1", "lz2", "lz3", "lz4"];
 {_x setMarkerText ""} forEach ["mkr_obj01", "mkr_obj02", "mkr_obj03", "mkr_obj04", "mkr_obj05", "mkr_obj06", "mkr_obj07", "mkr_obj08", "mkr_obj09"];
@@ -258,3 +263,5 @@ if (f_var_debugMode == 1) then {
 	{_x setMarkerAlpha 1} forEach ["mkr_obj01", "mkr_obj02", "mkr_obj03", "mkr_obj04", "mkr_obj05", "mkr_obj06", "mkr_obj07", "mkr_obj08", "mkr_obj09"];
 	{_x setMarkerAlpha 1} forEach ["lz1", "lz2", "lz3", "lz4"];
 };
+
+[] execVM "ai_weapons.sqf";
