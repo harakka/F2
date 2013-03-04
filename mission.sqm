@@ -2842,9 +2842,9 @@ class Mission
 				};
 				class Item5
 				{
-					position[]={10915.038,4.9569993,2630.7988};
+					position[]={10887.948,6.9543099,2576.1462};
+					id=131;
 					type="TR UNLOAD";
-					speed="NORMAL";
 					class Effects
 					{
 					};
@@ -3309,7 +3309,8 @@ class Mission
 				};
 				class Item4
 				{
-					position[]={9613.4756,131.0681,2605.4355};
+					position[]={9628.4492,124.09949,2561.9131};
+					id=148;
 					type="TR UNLOAD";
 					speed="NORMAL";
 					class Effects
