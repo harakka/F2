@@ -107,9 +107,9 @@ switch (_weather) do
 // Storm
 	case 4:
 	{
-		_MissionOvercast = 01.00;
-		_MissionFog = 00.50;
-		_MissionRain = 01.00;
+		_MissionOvercast = 0.70;
+		_MissionFog = 0.10;
+		_MissionRain = 0.60;
 	};
 };
 

@@ -235,3 +235,5 @@ if (f_var_debugMode == 1) then {
 };
 
 [] execVM "ai_weapons.sqf";
+
+[] execVM "ha_rainloop.sqf";
