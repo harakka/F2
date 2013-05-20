@@ -1369,7 +1369,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 3"";};";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 3"";};";
 					class Effects
 					{
 					};
@@ -1381,7 +1381,7 @@ class Mission
 					position[]={10040.339,6.0993624,1810.4163};
 					placement=1;
 					completitionRadius=1;
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -1392,7 +1392,7 @@ class Mission
 					position[]={10040.102,6.1010208,1835.6039};
 					placement=1;
 					completitionRadius=1;
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -1508,7 +1508,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 9"";};";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 9"";};";
 					class Effects
 					{
 					};
@@ -1519,7 +1519,7 @@ class Mission
 					position[]={10457.081,5.372014,2622.4463};
 					placement=1;
 					completitionRadius=4;
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -1530,7 +1530,7 @@ class Mission
 					position[]={10456.185,5.3499999,2624.3911};
 					placement=1;
 					completitionRadius=4;
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -1632,7 +1632,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 5"";};";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 5"";};";
 					class Effects
 					{
 					};
@@ -1644,7 +1644,7 @@ class Mission
 					position[]={9526.3936,5.5118837,2009.1086};
 					placement=3;
 					completitionRadius=1;
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -1655,7 +1655,7 @@ class Mission
 					position[]={9526.6973,5.5495086,2006.2867};
 					placement=3;
 					completitionRadius=1;
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -1764,7 +1764,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 6"";};";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 6"";};";
 					class Effects
 					{
 					};
@@ -1775,7 +1775,7 @@ class Mission
 					position[]={10164.419,6.0071502,2066.6553};
 					placement=1;
 					completitionRadius=1;
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -1786,7 +1786,7 @@ class Mission
 					position[]={10187.463,6.0093083,2072.7927};
 					placement=1;
 					completitionRadius=1;
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -2028,7 +2028,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 4"";};";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 4"";};";
 					class Effects
 					{
 					};
@@ -2038,7 +2038,7 @@ class Mission
 				class Item3
 				{
 					position[]={10140.981,6.0127869,1955.0927};
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -2047,7 +2047,7 @@ class Mission
 				class Item4
 				{
 					position[]={10173.209,6.0127869,1936.2061};
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -2161,7 +2161,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 7"";};";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 7"";};";
 					class Effects
 					{
 					};
@@ -2170,7 +2170,7 @@ class Mission
 				class Item3
 				{
 					position[]={10350.206,5.8264384,2261.6685};
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -2179,7 +2179,7 @@ class Mission
 				class Item4
 				{
 					position[]={10354.839,5.8264384,2232.3774};
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -2281,7 +2281,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 2"";};";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 2"";};";
 					class Effects
 					{
 					};
@@ -2291,7 +2291,7 @@ class Mission
 				class Item3
 				{
 					position[]={10311.575,6,1817.6255};
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -2300,7 +2300,7 @@ class Mission
 				class Item4
 				{
 					position[]={10311.859,6,1802.4221};
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -2420,7 +2420,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 1"";};";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 1"";};";
 					class Effects
 					{
 					};
@@ -2432,7 +2432,7 @@ class Mission
 					position[]={10335.043,6.0127869,1633.9779};
 					placement=1;
 					completitionRadius=1;
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -2443,7 +2443,7 @@ class Mission
 					position[]={10349.114,6.0127869,1651.953};
 					placement=1;
 					completitionRadius=1;
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -2983,7 +2983,7 @@ class Mission
 					combatMode="GREEN";
 					speed="FULL";
 					combat="AWARE";
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 8"";};";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList; if (f_var_debugMode == 1) then {this globalchat ""Deploying at Obj 8"";};";
 					class Effects
 					{
 					};
@@ -2995,7 +2995,7 @@ class Mission
 					position[]={10481.101,6,2371.5007};
 					placement=1;
 					completitionRadius=1;
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -3006,7 +3006,7 @@ class Mission
 					position[]={10491.536,6,2352.4812};
 					placement=1;
 					completitionRadius=1;
-					expActiv="{if (_x hasWeapon ""Put"") then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
+					expActiv="{if (""PipeBomb"" in magazines _x) then {_x fire [""pipebombmuzzle""];}; } forEach thisList;";
 					class Effects
 					{
 					};
@@ -4171,6 +4171,7 @@ class Mission
 				class Item0
 				{
 					position[]={7119.9282,5.9943619,3253.1523};
+					synchronizations[]={17,18};
 					class Effects
 					{
 					};
@@ -4857,7 +4858,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=6;
+		items=8;
 		class Item0
 		{
 			position[]={12909.159,0.38761991,3514.5657};
@@ -4947,6 +4948,33 @@ class Mission
 			class Effects
 			{
 			};
+		};
+		class Item6
+		{
+			position[]={9850.9131,6.002913,1921.7085};
+			a=200;
+			b=200;
+			activationBy="WEST";
+			interruptable=1;
+			age="UNKNOWN";
+			class Effects
+			{
+			};
+			synchronizations[]={17};
+		};
+		class Item7
+		{
+			position[]={10142.156,6,1920.1265};
+			a=400;
+			b=200;
+			angle=-18.961763;
+			activationBy="WEST";
+			interruptable=1;
+			age="UNKNOWN";
+			class Effects
+			{
+			};
+			synchronizations[]={18};
 		};
 	};
 };
