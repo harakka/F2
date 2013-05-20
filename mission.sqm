@@ -3318,7 +3318,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={9793.3672,30.407381,2226.197};
+					position[]={9803.3955,28.882338,2211.6172};
 					type="HOLD";
 					combat="COMBAT";
 					class Effects
@@ -4032,6 +4032,7 @@ class Mission
 				class Item0
 				{
 					position[]={12263.714,5.7511888,3515.5615};
+					synchronizations[]={16};
 					class Effects
 					{
 					};
@@ -4101,10 +4102,10 @@ class Mission
 			};
 			class Waypoints
 			{
-				items=4;
+				items=5;
 				class Item0
 				{
-					position[]={10169.323,68.560196,4077.9749};
+					position[]={10220.455,56.969349,4025.6543};
 					class Effects
 					{
 					};
@@ -4112,7 +4113,8 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={10488.604,44.356884,2772.0776};
+					position[]={10260.979,28.049299,3208.2549};
+					combat="COMBAT";
 					class Effects
 					{
 					};
@@ -4120,14 +4122,22 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={10509.485,46.78532,2758.9727};
-					combat="COMBAT";
+					position[]={10488.604,44.356884,2772.0776};
 					class Effects
 					{
 					};
 					showWP="NEVER";
 				};
 				class Item3
+				{
+					position[]={10601.521,32.605652,2629.3093};
+					combat="COMBAT";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item4
 				{
 					position[]={10581.306,36.583725,2500.5964};
 					class Effects
@@ -4847,7 +4857,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=4;
+		items=6;
 		class Item0
 		{
 			position[]={12909.159,0.38761991,3514.5657};
@@ -4908,6 +4918,32 @@ class Mission
 			age="UNKNOWN";
 			idVehicle=87;
 			expActiv="if (isServer) then {server globalchat ""Be advised, Russian helicopter visible on radar, on a landing course. Probable landing area marked as LZ1.""; ""lz1"" setMarkerAlpha 1};";
+			class Effects
+			{
+			};
+		};
+		class Item4
+		{
+			position[]={10490.191,15.427904,2285.9143};
+			a=200;
+			b=200;
+			activationBy="WEST";
+			interruptable=1;
+			age="UNKNOWN";
+			class Effects
+			{
+			};
+			synchronizations[]={16};
+		};
+		class Item5
+		{
+			position[]={10449.165,12.317803,2578.5991};
+			a=100;
+			b=100;
+			activationBy="VEHICLE";
+			interruptable=1;
+			age="UNKNOWN";
+			idVehicle=223;
 			class Effects
 			{
 			};
