@@ -41,11 +41,9 @@ class Mission
 		"CAWheeled_Offroad",
 		"CAWheeled",
 		"CATracked",
-		"CAAir2",
-		"ca_air2_su25",
-		"caair",
 		"CAAir_BAF",
 		"caair_baf_ch_47f",
+		"caair",
 		"camisc3",
 		"chernarus"
 	};
@@ -64,7 +62,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=167;
+		items=192;
 		class Item0
 		{
 			side="WEST";
@@ -6924,17 +6922,17 @@ class Mission
 				class Item0
 				{
 					presence=0.60700423;
-					position[]={10359.871,5.9055939,2164.3096};
+					position[]={10718.506,7.3408237,2363.8633};
 					placement=20;
-					azimut=49.078457;
+					azimut=175.42999;
 					id=364;
 					side="WEST";
-					vehicle="BMP2_CDF";
+					vehicle="Ural_CDF";
 					leader=1;
 					skill=0.2;
 					health=0;
-					fuel=0;
-					ammo=0;
+					fuel=0.70826828;
+					ammo=0.43623307;
 					init="this setDir (random 360)";
 				};
 			};
@@ -6947,14 +6945,14 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10488.395,6,2329.499};
-					placement=20;
-					azimut=49.078457;
+					presence=0.63115942;
+					position[]={10045.642,6,1908.6862};
+					placement=10;
 					id=365;
 					side="WEST";
-					vehicle="BMP2_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -6971,14 +6969,14 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10698.565,7.1651516,2433.3455};
-					placement=20;
-					azimut=49.078499;
+					presence=0.65531445;
+					position[]={10043.575,6,1903.1124};
+					placement=10;
 					id=366;
 					side="WEST";
-					vehicle="T72_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -6995,14 +6993,14 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10430.19,7.5175872,1989.0217};
-					placement=20;
-					azimut=134.6371;
+					presence=0.63921088;
+					position[]={10043.086,6,1918.3074};
+					placement=10;
 					id=367;
 					side="WEST";
-					vehicle="ZSU_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7019,14 +7017,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10407.693,7.6633739,1968.4764};
-					placement=20;
-					azimut=134.6371;
+					presence=0.63115942;
+					position[]={10092.032,6,1865.6095};
+					placement=10;
+					azimut=95.426872;
 					id=368;
 					side="WEST";
-					vehicle="ZSU_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7043,14 +7042,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10249.204,6,1788.3235};
-					placement=20;
-					azimut=134.6371;
+					presence=0.65531445;
+					position[]={10086.682,6,1868.1923};
+					placement=10;
+					azimut=95.426872;
 					id=369;
 					side="WEST";
-					vehicle="ZSU_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7067,14 +7067,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={9904.2568,6.4255557,1970.4603};
-					placement=20;
-					azimut=134.63699;
+					presence=0.63921088;
+					position[]={10101.853,6,1867.2427};
+					placement=10;
+					azimut=95.426872;
 					id=370;
 					side="WEST";
-					vehicle="Mi24_D";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7091,14 +7092,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={9805.9795,4.491797,1787.928};
-					placement=20;
-					azimut=134.6371;
+					presence=0.63115942;
+					position[]={10093.354,6.0012951,1787.8655};
+					placement=10;
+					azimut=82.179077;
 					id=371;
 					side="WEST";
-					vehicle="ZSU_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7115,14 +7117,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={9975.2998,15.761175,2170.3701};
-					placement=20;
-					azimut=134.63699;
+					presence=0.65531445;
+					position[]={10087.552,6,1789.1545};
+					placement=10;
+					azimut=82.179077;
 					id=372;
 					side="WEST";
-					vehicle="Mi24_D";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7139,14 +7142,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10630.468,1.8960176,2050.6577};
-					placement=20;
-					azimut=134.63699;
+					presence=0.63921088;
+					position[]={10102.538,6,1791.7063};
+					placement=10;
+					azimut=82.179077;
 					id=373;
 					side="WEST";
-					vehicle="Mi24_D";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7163,14 +7167,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10234.424,3.0845106,1575.3545};
-					placement=20;
-					azimut=134.63699;
+					presence=0.63115942;
+					position[]={10206.661,6,1787.9426};
+					placement=10;
+					azimut=85.895454;
 					id=374;
 					side="WEST";
-					vehicle="Ural_ZU23_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7187,14 +7192,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10339.53,7.1163678,1983.5112};
-					placement=20;
-					azimut=175.42955;
+					presence=0.65531445;
+					position[]={10200.954,6,1789.6047};
+					placement=10;
+					azimut=85.895454;
 					id=375;
 					side="WEST";
-					vehicle="Ural_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7211,14 +7217,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10271.539,5.9998579,2104.0945};
-					placement=20;
-					azimut=175.42955;
+					presence=0.63921088;
+					position[]={10216.074,6,1791.1813};
+					placement=10;
+					azimut=85.895454;
 					id=376;
 					side="WEST";
-					vehicle="Ural_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7235,14 +7242,14 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={9861.416,6.7849154,2010.8617};
-					placement=20;
-					azimut=175.42955;
+					presence=0.63115942;
+					position[]={10345.774,7.3020415,1935.6931};
+					placement=10;
 					id=377;
 					side="WEST";
-					vehicle="Ural_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7259,14 +7266,14 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={9450.3613,10.489819,1909.8589};
-					placement=20;
-					azimut=175.42955;
+					presence=0.65531445;
+					position[]={10343.708,6.8987031,1930.1194};
+					placement=10;
 					id=378;
 					side="WEST";
-					vehicle="Ural_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7283,14 +7290,14 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10718.506,7.3408237,2363.8633};
-					placement=20;
-					azimut=175.42999;
+					presence=0.63921088;
+					position[]={10343.219,7.6179399,1945.3143};
+					placement=10;
 					id=379;
 					side="WEST";
-					vehicle="Ural_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7307,14 +7314,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10756,7.0075421,2498.9795};
-					placement=20;
-					azimut=206.9641;
+					presence=0.63115942;
+					position[]={10187.873,6.0127869,1613.6146};
+					placement=10;
+					azimut=-75.269188;
 					id=380;
 					side="WEST";
-					vehicle="UAZ_MG_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7331,14 +7339,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10380.662,6.2014828,2423.5181};
-					placement=20;
-					azimut=206.9641;
+					presence=0.65531445;
+					position[]={10192.736,6.0127869,1610.1984};
+					placement=10;
+					azimut=-75.269188;
 					id=381;
 					side="WEST";
-					vehicle="UAZ_MG_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7355,14 +7364,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={10348.54,9.6597509,2752.6311};
-					placement=20;
-					azimut=206.9641;
+					presence=0.63921088;
+					position[]={10177.917,6.0127869,1613.5889};
+					placement=10;
+					azimut=-75.269188;
 					id=382;
 					side="WEST";
-					vehicle="UAZ_MG_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7379,14 +7389,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={9969.0322,56.220829,2543.8486};
-					placement=20;
-					azimut=206.964;
+					presence=0.63115942;
+					position[]={10019.676,5.9998579,2039.8386};
+					placement=10;
+					azimut=-14.111401;
 					id=383;
 					side="WEST";
-					vehicle="Su25_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7403,14 +7414,640 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0.60700423;
-					position[]={9703.8262,7.6616435,1898.821};
-					placement=20;
-					azimut=206.964;
+					presence=0.65531445;
+					position[]={10019.028,5.9998579,2033.9294};
+					placement=10;
+					azimut=-14.111401;
 					id=384;
 					side="WEST";
-					vehicle="Mi17_CDF";
+					vehicle="CDF_Soldier";
 					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item167
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63921088;
+					position[]={10014.85,5.9998579,2048.5464};
+					placement=10;
+					azimut=-14.111401;
+					id=385;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item168
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63115942;
+					position[]={10104.83,5.7800508,2093.2131};
+					placement=10;
+					azimut=-101.2201;
+					id=386;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item169
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.65531445;
+					position[]={10110.701,5.7762632,2092.272};
+					placement=10;
+					azimut=-101.2201;
+					id=387;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item170
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63921088;
+					position[]={10095.889,5.8133545,2088.8347};
+					placement=10;
+					azimut=-101.2201;
+					id=388;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item171
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63115942;
+					position[]={10356.603,5.7604384,2168.0686};
+					placement=10;
+					azimut=36.975586;
+					id=389;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item172
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.65531445;
+					position[]={10351.602,5.7692485,2164.8591};
+					placement=10;
+					azimut=36.975586;
+					id=390;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item173
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63921088;
+					position[]={10360.348,5.7531466,2177.292};
+					placement=10;
+					azimut=36.975586;
+					id=391;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item174
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63115942;
+					position[]={10412.592,6,2093.3264};
+					placement=10;
+					azimut=67.581573;
+					id=392;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item175
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.65531445;
+					position[]={10406.649,6,2093.1104};
+					placement=10;
+					azimut=67.581573;
+					id=393;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item176
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63921088;
+					position[]={10420.511,6,2099.3582};
+					placement=10;
+					azimut=67.581573;
+					id=394;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item177
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63115942;
+					position[]={10689.171,6.1672926,2445.0398};
+					placement=10;
+					azimut=51.455063;
+					id=395;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item178
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.65531445;
+					position[]={10683.522,6.1035156,2443.1831};
+					placement=10;
+					azimut=51.455063;
+					id=396;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item179
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63921088;
+					position[]={10695.102,6.2933841,2453.0344};
+					placement=10;
+					azimut=51.455063;
+					id=397;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item180
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63115942;
+					position[]={10669.51,7.3243709,2487.5396};
+					placement=10;
+					azimut=-115.87218;
+					id=398;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item181
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.65531445;
+					position[]={10675.428,7.3602548,2488.1116};
+					placement=10;
+					azimut=-115.87218;
+					id=399;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item182
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63921088;
+					position[]={10661.968,7.1784544,2481.0408};
+					placement=10;
+					azimut=-115.87218;
+					id=400;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item183
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63115942;
+					position[]={10736.18,6.8276119,2477.8735};
+					placement=10;
+					azimut=-12.040858;
+					id=401;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item184
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.65531445;
+					position[]={10735.321,6.6605864,2471.991};
+					placement=10;
+					azimut=-12.040858;
+					id=402;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item185
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63921088;
+					position[]={10731.674,6.5768113,2486.75};
+					placement=10;
+					azimut=-12.040858;
+					id=403;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item186
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63115942;
+					position[]={10459.214,5.9928389,2349.5847};
+					placement=10;
+					azimut=-35.883163;
+					id=404;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item187
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.65531445;
+					position[]={10460.809,5.9977455,2343.8569};
+					placement=10;
+					azimut=-35.883163;
+					id=405;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item188
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63921088;
+					position[]={10451.506,5.98,2355.8826};
+					placement=10;
+					azimut=-35.883163;
+					id=406;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item189
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63115942;
+					position[]={10578.989,6,2294.9941};
+					placement=10;
+					azimut=-130.05063;
+					id=407;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item190
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.65531445;
+					position[]={10584.584,5.9972205,2296.9985};
+					placement=10;
+					azimut=-130.05063;
+					id=408;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.2;
+					health=0;
+					fuel=0;
+					ammo=0;
+					init="this setDir (random 360)";
+				};
+			};
+		};
+		class Item191
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0.63921088;
+					position[]={10573.27,6,2286.8464};
+					placement=10;
+					azimut=-130.05063;
+					id=409;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					leader=1;
+					rank="CORPORAL";
 					skill=0.2;
 					health=0;
 					fuel=0;
@@ -7422,7 +8059,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=48;
+		items=68;
 		class Item0
 		{
 			position[]={11090.452,0.14922702,76.749146};
@@ -7942,6 +8579,302 @@ class Mission
 			leader=1;
 			skill=0.2;
 			init="this addEventHandler [""handleDamage"", {if ((getText(configFile >> ""CfgAmmo"" >> (_this select 4) >> ""simulation"") in [""shotPipeBomb"", ""shotTimeBomb""])) then {ha_obj09 = true; ""mkr_obj09"" setMarkerAlpha 1; ""mkr_obj09"" setMarkerColor ""ColorRed""; if (f_var_debugMode == 1) then {this globalchat ""Obj 9 destroyed"";}; 1};}];";
+		};
+		class Item48
+		{
+			presence=0.60700423;
+			position[]={10408.316,7.7267132,1942.3297};
+			placement=70;
+			id=410;
+			side="EMPTY";
+			vehicle="ZSU_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item49
+		{
+			presence=0.60700423;
+			position[]={10448.343,7.7880411,1978.4766};
+			placement=70;
+			id=411;
+			side="EMPTY";
+			vehicle="ZSU_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item50
+		{
+			presence=0.60700423;
+			position[]={10254.42,6.0200005,1787.33};
+			placement=20;
+			id=412;
+			side="EMPTY";
+			vehicle="ZSU_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item51
+		{
+			presence=0.60700423;
+			position[]={9808.1465,5.9036694,1801.7643};
+			placement=50;
+			id=413;
+			side="EMPTY";
+			vehicle="ZSU_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item52
+		{
+			presence=0.60700423;
+			position[]={10231.507,3.7988064,1578.0277};
+			placement=20;
+			azimut=-31.858665;
+			id=414;
+			side="EMPTY";
+			vehicle="Ural_ZU23_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item53
+		{
+			presence=0.60700423;
+			position[]={9448.8643,10.594316,1909.1418};
+			placement=20;
+			azimut=-31.8587;
+			id=415;
+			side="EMPTY";
+			vehicle="UralOpen_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item54
+		{
+			presence=0.60700423;
+			position[]={9402.3662,7.7769532,2067.5537};
+			placement=20;
+			azimut=-31.8587;
+			id=416;
+			side="EMPTY";
+			vehicle="UralOpen_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item55
+		{
+			presence=0.60700423;
+			position[]={10027.149,5.9998579,2049.0894};
+			placement=5;
+			azimut=-31.8587;
+			id=417;
+			side="EMPTY";
+			vehicle="UralOpen_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item56
+		{
+			presence=0.60700423;
+			position[]={10056.639,6.0200005,1778.5217};
+			placement=5;
+			azimut=-31.8587;
+			id=418;
+			side="EMPTY";
+			vehicle="UralOpen_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item57
+		{
+			presence=0.60700423;
+			position[]={10321.666,7.1992407,1981.2734};
+			placement=20;
+			azimut=-31.8587;
+			id=419;
+			side="EMPTY";
+			vehicle="UralOpen_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item58
+		{
+			presence=0.60700423;
+			position[]={10507.482,6,2162.2878};
+			placement=20;
+			azimut=-31.8587;
+			id=420;
+			side="EMPTY";
+			vehicle="UralOpen_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item59
+		{
+			presence=0.60700423;
+			position[]={10490.823,6,2329.0081};
+			placement=20;
+			azimut=-31.8587;
+			id=421;
+			side="EMPTY";
+			vehicle="BMP2_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item60
+		{
+			presence=0.60700423;
+			position[]={10698.837,7.235755,2429.0239};
+			placement=20;
+			azimut=-31.8587;
+			id=422;
+			side="EMPTY";
+			vehicle="T72_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item61
+		{
+			presence=0.60700423;
+			position[]={10763.116,6.9115591,2502.019};
+			placement=20;
+			azimut=-31.8587;
+			id=423;
+			side="EMPTY";
+			vehicle="UAZ_MG_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item62
+		{
+			presence=0.60700423;
+			position[]={10378.524,6.2998061,2419.6729};
+			placement=20;
+			azimut=-31.8587;
+			id=424;
+			side="EMPTY";
+			vehicle="UAZ_MG_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item63
+		{
+			presence=0.60700423;
+			position[]={10348.756,9.8362112,2759.6172};
+			placement=20;
+			azimut=-31.8587;
+			id=425;
+			side="EMPTY";
+			vehicle="UAZ_MG_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item64
+		{
+			presence=0.60700423;
+			position[]={9802.1338,6.0127869,2000.1626};
+			placement=20;
+			azimut=-31.8587;
+			id=426;
+			side="EMPTY";
+			vehicle="UralOpen_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item65
+		{
+			presence=0.60700423;
+			position[]={10702.025,71.859024,2850.6375};
+			placement=20;
+			azimut=-31.8587;
+			id=427;
+			side="EMPTY";
+			vehicle="UAZ_MG_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item66
+		{
+			presence=0.60700423;
+			position[]={10286.425,5.9998579,2111.4888};
+			placement=20;
+			azimut=-31.8587;
+			id=428;
+			side="EMPTY";
+			vehicle="UralOpen_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
+		};
+		class Item67
+		{
+			presence=0.60700423;
+			position[]={10371.551,6.3706713,2160.3489};
+			placement=20;
+			azimut=-31.8587;
+			id=429;
+			side="EMPTY";
+			vehicle="BMP2_CDF";
+			skill=0.60000002;
+			health=0;
+			fuel=0.6538617;
+			ammo=0.45107147;
+			init="this setDir (random 360)";
 		};
 	};
 	class Markers
