@@ -17,17 +17,17 @@ while { ((alive _helo) && !(unitReady _helo )) } do
 {
 	sleep 1;
 };
-hint "LANDING";
+//hint "LANDING";
 if (alive _helo) then {
 	_helo land "LAND";
 };
 
-waituntil {isTouchingGround _helo};
-hint "GOGOGO";
+waitUntil {((getPosATL _helo) select 2) < 2};
+//hint "GOGOGO";
 {
 	doGetOut _x;
 	unassignVehicle _x;
 } foreach assignedCargo _helo;
 waituntil { count (assignedCargo _helo) == 0 };
 _helo land "NONE";
-group _helo setCurrentWaypoint _nextWP;
+group _helo setCurrentWaypoint [group _helo, _nextWP];
