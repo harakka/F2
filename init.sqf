@@ -234,6 +234,6 @@ if (f_var_debugMode == 1) then {
 	{_x setMarkerAlpha 1} forEach ["lz1", "lz2", "lz3", "lz4"];
 };
 
-[] execVM "ai_weapons.sqf";
+//[] execVM "ai_weapons.sqf";
 
 [] execVM "ha_rainloop.sqf";
