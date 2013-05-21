@@ -221,12 +221,10 @@ player setVariable ["BIS_noCoreConversations", true];
 
 // Hide markers unless in debug mode. Need to hide first and then re-enable later, if
 // we waitUntil for f_processParamsArray first, the markers will be briefly visible
-{_x setMarkerAlpha 0} forEach ["mkr_obj01", "mkr_obj02", "mkr_obj03", "mkr_obj04", "mkr_obj05", "mkr_obj06", "mkr_obj07", "mkr_obj08", "mkr_obj09"];
+// 1, 2, 5, 9 are the ones we want to keep visible
+{_x setMarkerAlpha 0} forEach ["mkr_obj03", "mkr_obj04", "mkr_obj06", "mkr_obj07", "mkr_obj08"];
 {_x setMarkerAlpha 0} forEach ["lz1", "lz2", "lz3", "lz4"];
-{_x setMarkerText ""} forEach ["mkr_obj01", "mkr_obj02", "mkr_obj03", "mkr_obj04", "mkr_obj05", "mkr_obj06", "mkr_obj07", "mkr_obj08", "mkr_obj09"];
-
-//This script creates the carrier
-[LHD1] execVM "ws_carrier.sqf";
+//{_x setMarkerText ""} forEach ["mkr_obj01", "mkr_obj02", "mkr_obj03", "mkr_obj04", "mkr_obj05", "mkr_obj06", "mkr_obj07", "mkr_obj08", "mkr_obj09"];
 
 waitUntil {scriptDone f_processParamsArray};
 if (f_var_debugMode == 1) then {
@@ -235,5 +233,8 @@ if (f_var_debugMode == 1) then {
 };
 
 //[] execVM "ai_weapons.sqf";
+
+//This script creates the carrier
+[LHD1] execVM "ws_carrier.sqf";
 
 [] execVM "ha_rainloop.sqf";
