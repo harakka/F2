@@ -40,7 +40,7 @@ class Mission
 	randomSeed=3165154;
 	class Intel
 	{
-		briefingName="fkco_co74_red_snow_se_J_v14";
+		briefingName="fkco_co74_red_snow_se_v15";
 		briefingDescription="Spetsnaz detachment performs sabotage behind enemy lines before sunrise.";
 		startWeather=0.54602593;
 		forecastWeather=0.54424441;
