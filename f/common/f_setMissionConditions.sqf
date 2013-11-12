@@ -30,42 +30,42 @@ switch (_timeOfDay) do
 // Dawn
 	case 0:
 	{
-		setDate [2007, 5, 11, 4, 50];
+		setDate [2007, 11, 5, 5, 55];
 	};
 // Early Morning
 	case 1:
 	{
-		setDate [2007, 5, 11, 5, 50];
+		setDate [2007, 11, 5, 6, 10];
 	};
 // Morning
 	case 2:
 	{
-		setDate [2007, 5, 11, 9, 00];
+		setDate [2007, 11, 5, 9, 00];
 	};
 // Noon
 	case 3:
 	{
-		setDate [2007, 5, 11, 12, 0];
+		setDate [2007, 11, 5, 12, 0];
 	};
 // Afternoon
 	case 4:
 	{
-		setDate [2007, 5, 11, 15, 00];
+		setDate [2007, 11, 5, 15, 00];
 	};
 // Evening
 	case 5:
 	{
-		setDate [2007, 5, 11, 17, 50];
+		setDate [2007, 11, 5, 17, 50];
 	};
 // Dusk
 	case 6:
 	{
-		setDate [2007, 5, 11, 18, 50];
+		setDate [2007, 11, 5, 18, 50];
 	};
 // Night
 	case 7:
 	{
-		setDate [2007, 5, 11, 0, 0];
+		setDate [2007, 11, 5, 0, 0];
 	};
 };
 

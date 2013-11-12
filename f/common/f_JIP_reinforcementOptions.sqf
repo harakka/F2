@@ -42,10 +42,17 @@ _loadout = (player getVariable "f_var_JIP_loadout");
 // Using the choices made by the player we implement the desired loadout and set the
 // target group for her/him to join.
 
-[player] joinSilent grpNull;
-nul = [_grp,_joinDistance] execVM "f\common\f_JIP_nearTargetGroupCheck.sqf";
+//[player] joinSilent grpNull;
+[player] joinSilent _grp;
+if (f_var_debugMode == 1) then
+{
+	player sideChat format ["DEBUG (f\common\f_JIP_reinforcementOptions.sqf): group %1",_grp];
+};
+
+//nul = [_grp,_joinDistance] execVM "f\common\f_JIP_nearTargetGroupCheck.sqf";
 nul = [_loadout,player] execVM "f\common\folk_assignGear.sqf";
 
+[player, position leader _grp] execVM "custom\startposition.sqf";
 // ====================================================================================
 
 
